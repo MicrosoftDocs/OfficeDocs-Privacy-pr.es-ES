@@ -1,2 +1,38 @@
-- name: Índice
-  href: null
+- name: Más información acerca de la administración de privacidad
+  href: privacy-management.md
+- name: Más información sobre la evaluación gratuita de administración de la privacidad
+  href: privacy-management-trial.md
+- name: Introducción a la administración de privacidad
+  href: privacy-management-setup.md
+- name: Establecer permisos de usuario en la administración de privacidad
+  href: privacy-management-permissions.md
+- name: Configurar las opciones de administración de privacidad
+  href: privacy-management-settings.md
+- name: Buscar y visualizar datos personales en la administración de privacidad
+  href: privacy-management-data-profile.md
+- name: Administración de riesgos con directivas en la administración de privacidad
+  items:
+    - name: Información sobre las directivas de privacidad
+      href: privacy-management-policies.md
+    - name: Crear y personalizar directivas
+      href: privacy-management-policies-create.md
+    - name: Administrar directivas
+      href: privacy-management-policies-manage.md
+    - name: Descripción de las alertas y problemas de directivas
+      href: privacy-management-policies-issues.md
+    - name: Enviar notificaciones de directiva a usuarios
+      href: privacy-management-policies-notifications.md
+- name: Administrar solicitudes de derechos del interesado
+  items:
+    - name: Información acerca de las solicitudes derechos del interesado
+      href: privacy-management-subject-rights-requests.md
+    - name: Crear solicitudes de derechos del interesado
+      href: privacy-management-subject-rights-requests-create.md
+    - name: Administrar la coincidencia de datos para las solicitudes de derechos del interesado
+      href: privacy-management-subject-rights-requests-data-matching.md
+    - name: Revisar datos y colaborar en solicitudes de derechos del interesado
+      href: privacy-management-subject-rights-requests-review.md
+    - name: Administrar informes de solicitudes de derechos del interesado y completar solicitudes
+      href: privacy-management-subject-rights-requests-fulfill.md
+    - name: Automatizar tareas de solicitudes de derechos del interesado
+      href: privacy-management-subject-rights-requests-automate-tasks.md
