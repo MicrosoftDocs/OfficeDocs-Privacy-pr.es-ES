@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: Obtenga información sobre cómo configurar Microsoft Priva para su organización, establecer roles y permisos y configurar opciones importantes.
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249104"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280252"
 ---
 # <a name="get-started-with-priva"></a>Introducción a Priva
 
-Si está listo para empezar a usar Microsoft Priva para obtener ayuda para identificar y mitigar los riesgos de privacidad, siga estos pasos para configurar los requisitos previos y empezar a explorar los conocimientos de privacidad.
+Si está listo para empezar a usar Microsoft Priva para obtener ayuda para identificar y mitigar los riesgos de privacidad, siga estos pasos para configurar los requisitos previos y empezar a explorar la información de privacidad.
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>Paso 1: Confirmar suscripciones y licencias
 
@@ -37,7 +37,7 @@ Priva está disponible en el [Centro de cumplimiento de Microsoft 365](https://c
 
 Priva ofrece opciones de licencias para dos soluciones diferentes: Priva Privacy Risk Management y Priva Subject Rights Requests. Estos se pueden comprar individualmente o juntos. Al obtener licencias para solicitudes de derechos de sujeto, puede elegir el nivel de licencia adecuado para el número de solicitudes que necesita controlar. Puedes comprar solicitudes adicionales en cualquier momento.
 
-Para una guía detallada sobre las licencias, vea: [Guía de licencias de Microsoft 365 para la seguridad y el cumplimiento](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).
+Para una guía detallada sobre las licencias, vea: [Guía de licencias de Microsoft 365 para la seguridad y el cumplimiento](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva).
 
 > [!Note]
 > Priva no está disponible para los Community (GCC) moderados, GCC altos o del Departamento de Defensa (DoD).
