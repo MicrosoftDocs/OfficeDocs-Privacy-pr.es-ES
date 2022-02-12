@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitud de derechos del sujeto recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: cac4064a1e0dc2860d061748793a91c0b86e0896
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249201"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542848"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar los datos de una solicitud de derechos del sujeto
 
@@ -46,12 +46,31 @@ Las solicitudes de derechos de sujeto pasan por varias fases. Algunos progresan 
 
 Dado que es posible que las solicitudes deban trabajarse con el tiempo o con varios colaboradores, Priva proporciona actualizaciones continuas sobre el estado y las instrucciones sobre los siguientes pasos a seguir. Estas actualizaciones se pueden ver en la página de información general de la solicitud de derechos del sujeto.
 
-1. **Estimación de** datos: después de crear una solicitud, Priva identifica elementos que incluyen posibles coincidencias con el interesado y toma notas de sus ubicaciones en Microsoft 365. Cuando se haya realizado la estimación de datos, avanzará automáticamente para recuperar **datos, a** menos que haya errores o que la solicitud se ponga en pausa aquí para la revisión de administradores.
-   - Es posible que la solicitud esté configurada para requerir una revisión de administrador en esta fase. Si el administrador determina que los resultados iniciales de la consulta de búsqueda son satisfactorios, puede continuar con la recuperación de datos. Si desea realizar cambios antes de continuar, puede elegir editar primero la consulta de búsqueda. Vea el paso 2 para obtener más información. No podrá editar la consulta de búsqueda una vez que inicie la fase de recuperación de datos.
-   - Si la consulta de búsqueda devuelve una estimación de datos grande, lo que significa que está por encima del umbral recomendado de Priva para el tamaño o recuento de archivos, puede intentar revisar la búsqueda para refinar su ámbito. Tenga en cuenta que los archivos asociados con un elemento que coincida (por ejemplo, los datos adjuntos de archivos en un correo electrónico) pueden contar para el total. Las estimaciones de datos superiores al máximo de cálculo de datos grandes requerirán una revisión de búsqueda para continuar.
-1. **Recuperar datos**: esta fase indica que Priva está en proceso de recuperar los datos. Una vez completado, avanzará automáticamente para revisar **los datos**.
-1. **Revisar datos**: en esta fase, los colaboradores deben revisar los resultados en la  pestaña Datos recopilados y realizar todas las tareas aplicables, como la redacción, la aplicación de etiquetas y la adición de notas. Cuando haya terminado con la revisión, seleccione **Completar revisión**.
-1. **Generar informes**: los informes se están generando en esta fase. Una vez completados, se pueden encontrar en la **pestaña** Informes. Los archivos terminados se pueden exportar para su revisión final y entrega al interesado que realizó la solicitud.
+#### <a name="data-estimate"></a>Estimación de datos
+Una vez que cree una solicitud, Priva empezará inmediatamente a buscar posibles coincidencias con el interesado en su entorno Microsoft 365 datos. Una vez identificados todos los elementos que creemos que coinciden con sus criterios, verá la estimación en la tarjeta  de resumen de estimación de datos en la página **Información general de** la solicitud. La cantidad de datos dentro del ámbito de la búsqueda afectará a la cantidad de tiempo que llevará completar la estimación.
+
+La solicitud se moverá automáticamente a la siguiente fase de recuperación de datos, en la que se recopilan todos los elementos de contenido para que las partes interesadas puedan colaborar en su revisión de datos. Sin embargo, en algunos casos, pausaremos la estimación de datos antes de pasar a la recuperación y le notificaremos los siguientes pasos a seguir antes de continuar.
+
+También puede elegir pausar automáticamente en la fase de estimación de datos cuando cree por primera vez una solicitud de derechos de sujeto. Durante el proceso de creación, seleccione la **opción Obtener una estimación en primer** lugar durante el **paso Configuración de** búsqueda. Revise los detalles sobre el [paso de configuración de búsqueda](subject-rights-requests-create.md#define-search-settings).
+
+#### <a name="pause-in-data-estimate-for-large-search-results"></a>Pausar en la estimación de datos para resultados de búsqueda grandes
+
+Priva observará si se proyecta que la estimación de datos devolverá una gran cantidad de elementos para revisar (más de 10.000 elementos). La estimación se pausará para que pueda obtener una vista previa de los [](subject-rights-requests-create.md#refine-your-search) resultados y decidir si desea editar la consulta de búsqueda para dirigirse a ubicaciones o condiciones más específicas, o bien seguir recuperando los elementos identificados.  Le mostraremos en pantalla el número de elementos y el volumen de datos que coinciden con la búsqueda. Tendrás una o ambas opciones en una barra de mensajes en la parte superior de la pantalla:
+
+- Un **botón Editar consulta de** búsqueda le llevará directamente a la configuración de búsqueda de la solicitud para establecer parámetros más estrictos y generar una nueva estimación.
+- Siempre que la consulta de búsqueda no supere los 300.000 elementos, también verá una opción para **Recuperar datos**. Esto le permite elegir no editar la búsqueda y seguir recopilando los datos.
+
+#### <a name="retrieve-data"></a>Recuperar datos
+La fase de recuperación de datos es cuando todos los archivos, correos electrónicos, chats, imágenes y otros elementos de contenido que contienen los datos personales del interesado se recuperan y se juntan en un contenedor de almacenamiento de blobs de Azure para su revisión. La recuperación de datos puede tardar unos minutos o mucho más en función del volumen de datos. Una vez completada esta fase, la solicitud se mueve automáticamente a la siguiente fase de **Revisar datos**.
+
+#### <a name="review-data"></a>Revisar datos
+ En esta fase, los colaboradores deben revisar los resultados en la  pestaña Datos recopilados y realizar todas las tareas aplicables, como la redacción, la aplicación de etiquetas y la adición de notas. Cuando haya terminado con la revisión, seleccione **Completar revisión**.
+
+#### <a name="generate-reports"></a>Genere informes
+Los informes se están generando en esta fase. Una vez completados, se pueden encontrar en la **pestaña** Informes. Los archivos terminados se pueden exportar para su revisión final y entrega al interesado que realizó la solicitud.
+
+#### <a name="close-the-request"></a>Cerrar la solicitud
+Una solicitud cerrada indica que se ha completado todo el trabajo para cumplir con esta solicitud de derechos de sujeto. Todos los datos recopilados y los informes se conservarán según la configuración [de retención de datos](priva-settings.md#data-retention-periods).
 
 ## <a name="step-2-optional-view-and-edit-search-queries"></a>Paso 2 (opcional): Ver y editar consultas de búsqueda
 
@@ -59,7 +78,7 @@ Para ver información detallada sobre la búsqueda de datos detrás de una solic
 
 Aquí tiene la opción de Obtener una **vista previa** de los resultados de la búsqueda para ver qué tipo de contenido se devolverá para esta consulta. Si desea cambiar las propiedades de esta búsqueda y no ha iniciado la fase Recuperar datos, puede usar la opción **Editar consulta de** búsqueda.
 
-El asistente para editar consultas de búsqueda ofrece la posibilidad de cambiar o agregar propiedades para la identificación del interesado, los filtros y condiciones de búsqueda y las ubicaciones en las que buscar datos (incluidos Exchange, SharePoint, OneDrive o Teams). Usa estas opciones para alcanzar el nivel de especificidad deseado. Puedes revisar la versión final de la nueva consulta antes de presionar **Guardar**.
+El proceso de consulta de búsqueda de edición le permite cambiar o agregar propiedades para la identificación del interesado, los filtros y condiciones de búsqueda y las ubicaciones en las que buscar datos (incluidos Exchange, SharePoint, OneDrive o Teams). Usa estas opciones para alcanzar el nivel de especificidad deseado. Puedes revisar la versión final de la nueva consulta antes de presionar **Guardar**.
 
 Cuando termine de editar la consulta de búsqueda, se ejecutará una nueva búsqueda para reemplazar los resultados de búsqueda anteriores. Esto restablece el estado de la sección **Progreso** al primer paso, **Estimación de datos**. La nueva búsqueda puede tardar hasta 60 minutos en completarse. Una vez hecho esto, verá los resultados actualizados en la página de detalles de la solicitud.
 
@@ -86,9 +105,9 @@ También puede usar la opción  Compartir en la parte superior derecha dentro de
 
 ## <a name="step-4-close-the-request"></a>Paso 4: Cerrar la solicitud
 
-Cuando haya realizado todas las acciones necesarias para resolver la solicitud de derechos de sujeto, seleccione **Cerrar la solicitud**. Esto crea el informe final, que se cifrará y estará disponible en la **pestaña Informes**. La finalización puede tardar un tiempo en función del número de archivos de la solicitud.
+Cuando haya realizado todas las acciones necesarias para resolver la solicitud de derechos de sujeto, seleccione **Cerrar la solicitud**. Esto crea el informe final, que se puede encontrar en la **pestaña Informes**. La finalización puede tardar un tiempo en función del número de archivos de la solicitud.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 Para obtener más información sobre cómo trabajar con informes y completar solicitudes de derechos de sujeto, vea [Generar informes y cumplir una solicitud de derechos de sujeto](subject-rights-requests-reports.md).
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legales

@@ -1,5 +1,5 @@
 ---
-title: Configurar la configuración de Priva
+title: Opciones de configuración en Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre las opciones de configuración global de Microsoft Priva.
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249097"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542828"
 ---
-# <a name="configure-priva-settings"></a>Configurar la configuración de Priva
+# <a name="configure-priva-settings"></a>Opciones de configuración en Priva
 
 Puedes administrar la configuración de Microsoft Priva seleccionando el icono de engranaje en la esquina superior derecha de la pantalla. Las opciones aquí le permiten establecer preferencias de alto nivel y personalizar las propiedades clave. En esta página se proporciona información general sobre las Configuración categorías principales.
 
@@ -46,7 +46,7 @@ Use esta sección para cargar esquemas de datos que describen los atributos de l
 
 ## <a name="data-retention-periods"></a>Períodos de retención de datos
 
-Esta configuración está relacionada con solicitudes de derechos de sujeto priva. Le permite controlar su preferencia durante cuánto tiempo desea conservar los datos recopilados y los informes generados después de cerrar la solicitud. Se puede establecer en 30 o 90 días. Compruebe que estos períodos de retención de datos cumplen con sus directivas y obligaciones legales. Para obtener más información acerca de las solicitudes de derechos de sujeto, vea [Información sobre solicitudes](subject-rights-requests.md) de derechos de sujeto priva.
+Esta configuración está relacionada con solicitudes de derechos de sujeto priva. Le permite controlar su preferencia durante cuánto tiempo desea conservar los datos recopilados y los informes generados después de cerrar la solicitud. Se puede establecer en 30 o 90 días y se aplica a todas las solicitudes de derechos de sujeto que cree. Se recomienda comprobar que los períodos de retención de datos cumplen con las directivas y las obligaciones legales de la organización. Obtenga más información sobre [cómo establecer la retención de datos para solicitudes de derechos de sujeto](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Etiquetas de revisión de datos
 

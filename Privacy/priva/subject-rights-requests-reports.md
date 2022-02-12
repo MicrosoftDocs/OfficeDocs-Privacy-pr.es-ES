@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo administrar los paquetes de datos creados por Microsoft Priva para solicitudes de derechos de sujeto y cumplir la solicitud al interesado.
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249208"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542838"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Generar informes y cumplir una solicitud de derechos de sujeto
 
@@ -56,7 +56,13 @@ Para obtener más información, consulte [Use the Microsoft Graph subject rights
 
 ## <a name="manage-data-retention"></a>Administrar la retención de datos
 
-Los informes generados a través de esta herramienta y los datos asociados, como los archivos anotados guardados en Azure, se almacenan durante un período de tiempo especificado. Esta duración se define a nivel global a través de **Configuración** en la sección **Períodos** de retención de datos, que le permiten elegir entre 30 y 90 días. Compruebe que estos períodos de retención de datos cumplen con sus directivas y obligaciones legales.
+Los informes generados a través de esta herramienta y los datos asociados, como los archivos anotados guardados en Azure, se almacenan durante un período de tiempo especificado. El período de retención de datos se define en Priva **Configuración** y se aplica a todas las solicitudes de derechos de sujeto. Para ver o cambiar los períodos de retención de datos, siga los pasos siguientes:
+
+1. Desde cualquier lugar de Priva Subject Rights Requests, **selecciona Configuración** (el icono de engranaje) en la esquina superior derecha de la pantalla.
+2. Seleccione **Períodos de retención de datos** en la navegación izquierda.
+3. Con el menú desplegable, seleccione 30 días o 90 días como período de retención.
+
+Asegúrese de comprobar que los períodos de retención de datos elegidos cumplen con las directivas y obligaciones legales de su organización.
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legales
 
