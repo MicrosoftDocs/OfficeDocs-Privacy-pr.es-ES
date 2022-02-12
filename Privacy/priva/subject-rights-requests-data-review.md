@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitud de derechos del sujeto recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542848"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768434"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar los datos de una solicitud de derechos del sujeto
 
@@ -47,9 +47,9 @@ Las solicitudes de derechos de sujeto pasan por varias fases. Algunos progresan 
 Dado que es posible que las solicitudes deban trabajarse con el tiempo o con varios colaboradores, Priva proporciona actualizaciones continuas sobre el estado y las instrucciones sobre los siguientes pasos a seguir. Estas actualizaciones se pueden ver en la página de información general de la solicitud de derechos del sujeto.
 
 #### <a name="data-estimate"></a>Estimación de datos
-Una vez que cree una solicitud, Priva empezará inmediatamente a buscar posibles coincidencias con el interesado en su entorno Microsoft 365 datos. Una vez identificados todos los elementos que creemos que coinciden con sus criterios, verá la estimación en la tarjeta  de resumen de estimación de datos en la página **Información general de** la solicitud. La cantidad de datos dentro del ámbito de la búsqueda afectará a la cantidad de tiempo que llevará completar la estimación.
+Una vez que cree una solicitud, Priva empezará inmediatamente a buscar posibles coincidencias con el interesado en su entorno Microsoft 365 datos. Una vez identificados todos los elementos que creemos que coinciden con sus criterios, verá la estimación en la tarjeta  de resumen de estimación de datos en la página **Información general de** la solicitud. La cantidad de datos dentro del ámbito de la búsqueda afectará al tiempo que se necesitará para completar la estimación.
 
-La solicitud se moverá automáticamente a la siguiente fase de recuperación de datos, en la que se recopilan todos los elementos de contenido para que las partes interesadas puedan colaborar en su revisión de datos. Sin embargo, en algunos casos, pausaremos la estimación de datos antes de pasar a la recuperación y le notificaremos los siguientes pasos a seguir antes de continuar.
+La solicitud se moverá automáticamente a la siguiente fase de recuperación de datos, donde se recopilan todos los elementos de contenido para que las partes interesadas puedan colaborar en la revisión de datos. En algunos casos, pausaremos la estimación de datos antes de pasar a la recuperación y le notificaremos los siguientes pasos a seguir antes de continuar.
 
 También puede elegir pausar automáticamente en la fase de estimación de datos cuando cree por primera vez una solicitud de derechos de sujeto. Durante el proceso de creación, seleccione la **opción Obtener una estimación en primer** lugar durante el **paso Configuración de** búsqueda. Revise los detalles sobre el [paso de configuración de búsqueda](subject-rights-requests-create.md#define-search-settings).
 
