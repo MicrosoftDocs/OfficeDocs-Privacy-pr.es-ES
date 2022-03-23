@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitud de derechos del sujeto recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
-ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
+ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
+ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62768434"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746767"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar los datos de una solicitud de derechos del sujeto
 
@@ -37,17 +37,17 @@ Los iconos de la página de detalles de la solicitud incluyen:
 
 - **Detalles**: los detalles esenciales sobre la solicitud, incluida la fecha límite y la fecha de solicitud, su descripción y el reglamento de privacidad relacionado.
 - **Progreso**: escala de tiempo que indica los pasos completados y las tareas pendientes de finalizar.
-- Estadísticas sobre la fase de progreso actual. Este icono puede mostrar información como un resumen de estimación de datos, cuántos elementos se encontraron en la búsqueda y sus ubicaciones en Microsoft 365, o el estado de las exportaciones.
+- Estadísticas sobre la fase de progreso actual. Este icono puede mostrar información como un resumen de estimación de datos, cuántos elementos se encontraron en la búsqueda y sus ubicaciones en Microsoft 365 o el estado de las exportaciones.
 - **Elementos prioritarios que se revisarán**: este icono mostrará información sobre los elementos importantes que Priva haya detectado por usted. Por ejemplo, esto podría incluir información confidencial que ya lleva una etiqueta de confidencialidad de Microsoft o elementos con datos sobre varias personas que pueden requerir una redacción. Esto ayudará a los administradores a saber dónde empezar a revisar. Los elementos de prioridad se pueden encontrar en Datos recopilados mediante el filtrado por la columna "Tipos de prioridad".
 
 ### <a name="understand-progress-stages"></a>Comprender las fases de progreso
 
-Las solicitudes de derechos de sujeto pasan por varias fases. Algunos progresan automáticamente a medida que Priva realiza su evaluación de datos y otros avanzan cuando los administradores y colaboradores de solicitudes de derechos de sujeto completan pasos esenciales como revisar, seleccionar y redactar archivos.
+Las solicitudes de derechos de sujeto pasan por varias fases. Algunos estados progresan automáticamente y otras fases avanzan cuando los administradores y colaboradores de solicitudes de derechos de sujeto completan pasos esenciales como revisar archivos.
 
-Dado que es posible que las solicitudes deban trabajarse con el tiempo o con varios colaboradores, Priva proporciona actualizaciones continuas sobre el estado y las instrucciones sobre los siguientes pasos a seguir. Estas actualizaciones se pueden ver en la página de información general de la solicitud de derechos del sujeto.
+Dado que es posible que las solicitudes deban trabajarse con el tiempo o con varios colaboradores, Priva proporciona actualizaciones continuas sobre el estado y las instrucciones sobre los siguientes pasos a seguir. Estas actualizaciones se pueden ver en la pestaña **Información** general de la página de detalles de una solicitud de derechos de sujeto.
 
 #### <a name="data-estimate"></a>Estimación de datos
-Una vez que cree una solicitud, Priva empezará inmediatamente a buscar posibles coincidencias con el interesado en su entorno Microsoft 365 datos. Una vez identificados todos los elementos que creemos que coinciden con sus criterios, verá la estimación en la tarjeta  de resumen de estimación de datos en la página **Información general de** la solicitud. La cantidad de datos dentro del ámbito de la búsqueda afectará al tiempo que se necesitará para completar la estimación.
+Una vez que cree una solicitud, Priva empezará inmediatamente a buscar posibles coincidencias con el interesado en su Microsoft 365 de datos. Una vez identificados todos los elementos que creemos que coinciden con sus criterios, verá la estimación en la tarjeta  de resumen de estimación de datos en la página **Información general de** la solicitud. La cantidad de datos dentro del ámbito de la búsqueda afectará al tiempo que se necesitará para completar la estimación.
 
 La solicitud se moverá automáticamente a la siguiente fase de recuperación de datos, donde se recopilan todos los elementos de contenido para que las partes interesadas puedan colaborar en la revisión de datos. En algunos casos, pausaremos la estimación de datos antes de pasar a la recuperación y le notificaremos los siguientes pasos a seguir antes de continuar.
 
@@ -55,7 +55,7 @@ También puede elegir pausar automáticamente en la fase de estimación de datos
 
 #### <a name="pause-in-data-estimate-for-large-search-results"></a>Pausar en la estimación de datos para resultados de búsqueda grandes
 
-Priva observará si se proyecta que la estimación de datos devolverá una gran cantidad de elementos para revisar (más de 10.000 elementos). La estimación se pausará para que pueda obtener una vista previa de los [](subject-rights-requests-create.md#refine-your-search) resultados y decidir si desea editar la consulta de búsqueda para dirigirse a ubicaciones o condiciones más específicas, o bien seguir recuperando los elementos identificados.  Le mostraremos en pantalla el número de elementos y el volumen de datos que coinciden con la búsqueda. Tendrás una o ambas opciones en una barra de mensajes en la parte superior de la pantalla:
+Priva observará si se proyecta que la estimación de datos devolverá un gran número de elementos para revisar (más de 10.000 elementos). La estimación se pausará para que pueda obtener una vista previa de los [](subject-rights-requests-create.md#refine-your-search) resultados y decidir si desea editar la consulta de búsqueda para dirigirse a ubicaciones o condiciones más específicas, o bien seguir recuperando los elementos identificados.  Le mostraremos en pantalla el número de elementos y el volumen de datos que coinciden con la búsqueda. Tendrás una o ambas opciones en una barra de mensajes en la parte superior de la pantalla:
 
 - Un **botón Editar consulta de** búsqueda le llevará directamente a la configuración de búsqueda de la solicitud para establecer parámetros más estrictos y generar una nueva estimación.
 - Siempre que la consulta de búsqueda no supere los 300.000 elementos, también verá una opción para **Recuperar datos**. Esto le permite elegir no editar la búsqueda y seguir recopilando los datos.
@@ -84,24 +84,66 @@ Cuando termine de editar la consulta de búsqueda, se ejecutará una nueva búsq
 
 ## <a name="step-3-review-data"></a>Paso 3: Revisar datos
 
-En esta fase, los colaboradores deben revisar los resultados en la **pestaña Datos recopilados** . Entre las tareas esenciales se incluyen:
+En esta fase, los colaboradores deben revisar los resultados en la **pestaña Datos recopilados**. Se configurará Teams canal de contenido automáticamente para facilitar la revisión de contenido por parte de todas las partes interesadas. Consulta [Colaborar en la revisión de datos](#collaborate-on-data-review) para obtener más información. A continuación se describen las tareas esenciales para el paso de revisión de datos.
 
-1. Revise la lista de elementos identificados y elija si desea incluir cada archivo en los resúmenes o exportaciones. Si no necesita incluir una coincidencia notificada, seleccione la opción "Excluir". Si el contenido parece ser un falso positivo, puedes elegir "No coincidir" para excluir el archivo de los informes finales y marcar el elemento como algo que no debería haber sido recogido por la solicitud. Para establecer el estado de un elemento, use el menú de acción (puntos suspensivos verticales) junto a su nombre y seleccione la opción que desee. Si se le pide, agregue una nota de referencia interna para explicar su decisión. Las notas son necesarias al excluir archivos.
-1. Use la **opción Aplicar etiquetas** para ayudarle a identificar los elementos que necesitan atención. Las etiquetas disponibles incluyen opciones proporcionadas por el sistema, por ejemplo, etiquetar un elemento para seguimiento y pueden incluir etiquetas personalizadas según se define en la configuración global.
-1. Use **Anotación para** crear marcas en línea o redactar datos en un archivo seleccionado. Por ejemplo, si necesita incluir un archivo para una persona que también contiene la información personal de otros, puede usar la redacción **Área (** debajo del botón Dibujo de la barra de comandos) para cerrar toda la información que no pertenezca a la persona que realizó la solicitud. Una vez completadas las ediciones, seleccione **Incluir** para agregar el archivo redactado a la solicitud. La anotación crea una copia del archivo, de modo que no se modifica nada en el archivo original y permanecerá en su ubicación original. La copia se almacena en el blob de Azure.
-1. Para revisar las notas de un elemento, selecciónelo y vaya a la pestaña **Notas del** archivo. También puede usar la opción **Agregar nota de archivo** para crear un nuevo comentario. Para revisar o agregar notas en un nivel de caso general, vaya a la pestaña **Notas** principal anterior y use **Agregar nota de caso**. Estas notas serán visibles para los usuarios que trabajen en la solicitud, pero no se incluirán en el informe final ni se compartirán con el interesado.
-1. Cuando se hayan revisado todos los elementos y se hayan establecido sus estados, seleccione **Completar revisión**. Se abrirá un panel de sobrevía donde puede revisar un resumen de los datos y agregar las notas relevantes. Estas notas son para el mantenimiento de registros internos y no se comparten con el interesado.
-1. Seleccione Completar revisión de nuevo para continuar. Los resúmenes de sus decisiones se proporcionan más adelante en la **pestaña** Informes.
+#### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marcar elementos como Incluir o Excluir y agregar notas
+
+Revise la lista de elementos identificados para determinar si los datos personales del interesado están en cada elemento. Si el elemento contiene la información del interesado y pertenece como parte del informe final al interesado, marca el elemento como Incluir seleccionando Incluir en la  barra de comandos en  la parte superior de la lista de elementos. También puede seleccionar el botón azul **Incluir** en el área de revisión de contenido a la derecha de la lista de elementos. Al seleccionar **Incluir**, aparece un panel desplegable con una opción para agregar notas. Cuando haya terminado, seleccione **Enviar para** guardar el estado de revisión del elemento como **Incluir**.
+
+Si no necesita incluir un elemento como parte de la solicitud, seleccione **Excluir** en la barra de comandos o el botón Excluir en  el área de revisión de contenido. Excluir un elemento significa que no es relevante para la solicitud de derechos del sujeto y el elemento no se incluirá en los informes [finales](subject-rights-requests-reports.md) que se generan para el interesado.
+
+> [!NOTE]
+> Si marca un elemento **Exclude**, debe agregar una nota como justificación de por qué no pertenece a la solicitud de derechos del sujeto. Las notas son para fines internos y no se incluyen en los informes finales.
+
+Si el contenido parece ser un falso positivo, seleccione No  coincidir para excluir el archivo de los informes finales y marcar el elemento como algo que no debería haber sido detectado en la búsqueda. En el **panel desplegable Marcar como** no coincidir, seleccione Confirmar para  que sepamos que el elemento no coincide con los criterios de búsqueda.
+
+#### <a name="apply-tags"></a>Apply tags
+
+Las etiquetas se pueden usar para ayudarle a identificar elementos que necesitan más atención. Priva proporciona tres etiquetas predeterminadas ( **Seguimiento**, **Eliminar** y **Actualizar** ) para las que puede establecer una descripción. Priva también proporciona dos etiquetas personalizadas que puede nombrar y describir.
+
+Por ejemplo, si durante la revisión de datos determina que la organización no necesita conservar un elemento de contenido, puede aplicar la etiqueta **Eliminar** y, a continuación, exportar una lista de todos los archivos etiquetados para que pueda volver atrás y eliminar los elementos identificados cuando haya terminado con la solicitud.
+
+Las cinco etiquetas que se establecen y administran en [Configuración](priva-settings.md#data-review-tags) se aplican a todas las solicitudes de derechos de sujeto.
+
+**Para agregar o quitar etiquetas:**
+
+- Seleccione el elemento de la lista en la **pestaña Datos recopilados** de la solicitud.
+- En el área de vista previa del elemento a la derecha de la lista, seleccione el **botón Aplicar etiquetas** en la fila inferior. También puede seleccionar los tres puntos a la derecha del nombre del elemento y seleccionar la **opción Aplicar etiquetas** .
+- Aparece un panel desplegable con la lista de etiquetas. Active la casilla situada junto a cualquiera de las etiquetas que desea aplicar al elemento. Si se desaproteba una casilla, se quitará la etiqueta.
+- Cuando esté satisfecho con las selecciones, seleccione **Guardar**, que guarda las selecciones de etiqueta y cierra el panel desplegable.
+
+**Para agregar etiquetas personalizadas o actualizar descripciones de etiquetas:**
+- En la página Solicitudes de derechos de sujeto, seleccione **Configuración** en la esquina superior derecha de la pantalla para llegar a la configuración de Priva.
+- Vaya a la **página Etiquetas de revisión de** datos y seleccione la etiqueta para introducir una descripción y, para las etiquetas personalizadas, un nombre. Obtenga más información sobre [la configuración de etiquetas](priva-settings.md#data-review-tags).
+
+**Para exportar una lista de elementos etiquetados:**
+- Vaya a la **página Datos recopilados** en una solicitud de derechos del sujeto.
+- Encima de la lista de elementos, seleccione el icono de flecha abajo que indica **Exportar** al pasar el mouse sobre él.
+- Se Excel un archivo de Excel se descargará. Abra el archivo cuando termine de descargar.
+
+El archivo Excel muestra las propiedades de todos los elementos recopilados por la búsqueda de la solicitud. Busque la **columna Etiquetas** para identificar y ordenar los elementos por etiqueta.
+
+#### <a name="use-the-annotate-command-to-redact-text"></a>Usar el comando Anotar para redactar texto
+Use **Anotación para** crear marcas en línea o redactar datos en un archivo seleccionado. Por ejemplo, si necesita incluir un archivo para una persona que también contiene la información personal de otros, puede usar la redacción **Área (** debajo del botón Dibujo de la barra de comandos) para cerrar toda la información que no pertenezca a la persona que realizó la solicitud. Una vez completadas las ediciones, seleccione **Incluir** para agregar el archivo redactado a la solicitud. La anotación crea una copia del archivo, de modo que no se modifica nada en el archivo original y permanecerá en su ubicación original. La copia se almacena en el blob de Azure.
+
+#### <a name="enter-notes-about-a-file"></a>Escribir notas sobre un archivo
+Para agregar o revisar notas en un elemento, seleccione el elemento de su fila y vaya a la pestaña Notas **del** archivo del área de revisión de contenido a la derecha. También puede usar la opción **Agregar nota de archivo** para crear un nuevo comentario. Para revisar o agregar notas en un nivel de caso general, vaya a la pestaña **Notas** principal anterior y use **Agregar nota de caso**. Estas notas serán visibles para los usuarios que trabajen en la solicitud, pero no se incluirán en el informe final ni se compartirán con el interesado.
+
+#### <a name="complete-the-review"></a>Completar la revisión
+
+Cuando se hayan revisado todos los elementos y haya establecido su estado como **Incluir****, Excluir** o No coincidir **,** es el momento de cerrar el paso de revisión seleccionando el botón Revisar completo en la  esquina superior derecha dentro de la solicitud. Un panel desplegable mostrará un resumen de los datos y agregará las notas relacionadas. Estas notas son para el mantenimiento de registros internos y no se comparten con el interesado.
+
+Seleccione **Completar revisión** en el panel desplegable para finalizar el paso de revisión. Los resúmenes de sus decisiones se proporcionan más adelante en la **pestaña** Informes.
 
 ### <a name="collaborate-on-data-review"></a>Colaborar en la revisión de datos
 
-Priva admite la colaboración a Microsoft Teams para permitir que el grupo colabore en solicitudes de derechos de sujeto. Al crear una nueva solicitud, se crea automáticamente un canal Teams y se asocia a la solicitud de forma predeterminada. Aquí puede analizar la solicitud y compartir de forma segura la entrada y las contribuciones. Para unirse a la conversación, abra la solicitud y use la **opción Chat with collaborators** . Esto abrirá Microsoft Teams y lo colocará en el canal General del sitio de grupo de la solicitud de derechos de sujeto.
+Priva admite la colaboración Microsoft Teams para permitir que el grupo trabaje conjuntamente en solicitudes de derechos de sujeto. Al crear una nueva solicitud, se crea automáticamente un canal de Teams y se asocia a la solicitud de forma predeterminada. Aquí puede analizar la solicitud y compartir de forma segura la entrada y las contribuciones. Para unirse a la conversación, abra la solicitud y use la **opción Chat with collaborators** . Esto abrirá Microsoft Teams y lo colocará dentro del canal General para el sitio de grupo de la solicitud de derechos de sujeto.
 
 Para revisar la lista de colaboradores activos que pueden ver y contribuir a su sitio de grupo, dentro de su solicitud de derechos de asunto, abra la **pestaña Colaboradores** . Para agregar usuarios adicionales para colaborar en esta solicitud, seleccione la opción **Agregar un colaborador**.
 
 Para cambiar el comportamiento predeterminado de generar sitios Teams al crear una solicitud de derechos de sujeto, vaya a **Configuración** en la navegación superior y seleccione Teams colaboración para  modificar la configuración.
 
-También puede usar la opción  Compartir en la parte superior derecha dentro de una solicitud de derecho de asunto para hacer que los usuarios entren en bucle a través de Teams o correo electrónico, o para copiar el vínculo a la página en Priva. Compartir a través de Teams permite seleccionar un sitio y un canal de Teams existentes disponibles para su cuenta, donde se mostrará un vínculo a este caso junto con cualquier mensaje que proporcione.
+También puede usar la opción  Compartir en la parte superior derecha dentro de una solicitud de derecho de asunto para hacer que los usuarios entren en bucle a través de Teams o correo electrónico, o para copiar el vínculo a la página en Priva. Compartir a través de Teams permite seleccionar un sitio y canal de Teams existentes disponibles para su cuenta, donde se mostrará un vínculo a este caso junto con cualquier mensaje que proporcione.
 
 ## <a name="step-4-close-the-request"></a>Paso 4: Cerrar la solicitud
 

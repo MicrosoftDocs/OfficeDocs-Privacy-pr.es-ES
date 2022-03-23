@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La solución Solicitudes de derechos de sujeto en Microsoft Priva le ayuda a encontrar datos personales y colaborar en la revisión del contenido y la creación de informes.
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249243"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758449"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Obtenga información sobre solicitudes de derechos del sujeto priva
 
@@ -31,13 +31,11 @@ Microsoft Priva puede ayudarle a administrar estas consultas a través de la sol
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Cómo Priva admite el cumplimiento de solicitudes de derechos de sujeto
 
-El ciclo de solicitud de derechos del sujeto comienza con la solicitud de un individuo a su organización. Una vez recibido, puede usar las capacidades de Priva para recopilar los datos, colaborar, revisar y crear informes. A continuación, puede informar al interesado de sus conclusiones y realizar cualquier otra acción que sea necesaria fuera de Priva para satisfacer la solicitud, como la eliminación de datos. Para ayudar a administrar y automatizar los flujos de trabajo en el camino, también puede usar las plantillas de Power Automate integradas de Priva.
-
-![Flujo de trabajo para solicitudes de derechos de sujeto.](../media/priva-srr-cycle.png)
+El ciclo de solicitud de derechos del sujeto comienza con la solicitud de un individuo a su organización. Una vez recibido, puede usar las capacidades de Priva para recopilar los datos, colaborar, revisar y crear informes. A continuación, puede informar al interesado de sus conclusiones y realizar cualquier otra acción que sea necesaria fuera de Priva para satisfacer la solicitud, como la eliminación de datos. Para ayudar a administrar y automatizar los flujos de trabajo en el camino, también puede usar plantillas Power Automate integradas.
 
 ### <a name="create-requests-and-collect-data"></a>Crear solicitudes y recopilar datos
 
-Priva proporciona opciones de búsqueda eficaces para buscar datos relacionados con el interesado en el contenido que la organización almacena en Microsoft 365. También le ayuda a priorizar los elementos que deben revisarse dentro de los datos que recopila para estas solicitudes. Priva es consciente de Microsoft Information Protection etiquetas de confidencialidad, que indican contenido potencialmente confidencial y puede necesitar una revisión especial, y marca los elementos con estas etiquetas. Además, Priva puede detectar y marcar elementos que pueden contener los datos de varias personas, donde es posible que tenga que redactar contenido antes de suministrarlo al interesado.
+Priva proporciona opciones de búsqueda eficaces para buscar datos relacionados con el interesado en el contenido que la organización almacena en Microsoft 365. También le ayuda a priorizar los elementos que deben revisarse dentro de los datos que recopila para estas solicitudes. Priva es consciente de Microsoft Information Protection etiquetas de confidencialidad, que indican contenido que puede ser confidencial y puede necesitar una revisión especial, y marca los elementos con estas etiquetas. Además, Priva puede detectar y marcar elementos que pueden contener los datos de varias personas, donde es posible que tenga que redactar contenido antes de suministrarlo al interesado.
 
 Para obtener más información, vea [Create a subject rights request](subject-rights-requests-create.md).
 
