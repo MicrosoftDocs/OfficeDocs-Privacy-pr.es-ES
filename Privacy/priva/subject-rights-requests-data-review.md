@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitud de derechos del sujeto recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 7e9222a67d2f7b7e81141d1ec9a65688800f436e
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746767"
+ms.locfileid: "63758440"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisar los datos de una solicitud de derechos del sujeto
 
@@ -88,14 +88,14 @@ En esta fase, los colaboradores deben revisar los resultados en la **pestaña Da
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marcar elementos como Incluir o Excluir y agregar notas
 
-Revise la lista de elementos identificados para determinar si los datos personales del interesado están en cada elemento. Si el elemento contiene la información del interesado y pertenece como parte del informe final al interesado, marca el elemento como Incluir seleccionando Incluir en la  barra de comandos en  la parte superior de la lista de elementos. También puede seleccionar el botón azul **Incluir** en el área de revisión de contenido a la derecha de la lista de elementos. Al seleccionar **Incluir**, aparece un panel desplegable con una opción para agregar notas. Cuando haya terminado, seleccione **Enviar para** guardar el estado de revisión del elemento como **Incluir**.
+Revise la lista de elementos identificados devueltos por la búsqueda. Si decide que el elemento debe incluirse como parte del informe final de vuelta al interesado, seleccione Incluir en la  barra de comandos en la parte superior de la lista de elementos. También puede seleccionar el botón azul **Incluir** en el área de revisión de contenido a la derecha de la lista de elementos. Al seleccionar **Incluir**, aparece un panel desplegable con una opción para agregar notas. Cuando haya terminado, seleccione **Enviar para** guardar el estado de revisión del elemento como **Incluir**.
 
-Si no necesita incluir un elemento como parte de la solicitud, seleccione **Excluir** en la barra de comandos o el botón Excluir en  el área de revisión de contenido. Excluir un elemento significa que no es relevante para la solicitud de derechos del sujeto y el elemento no se incluirá en los informes [finales](subject-rights-requests-reports.md) que se generan para el interesado.
+Si el elemento no pertenece a la solicitud, seleccione **Excluir** en la barra de comandos o el botón Excluir del  área de revisión de contenido. Excluir un elemento significa que no se incluirá en los informes [finales que se generan para el interesado](subject-rights-requests-reports.md).
 
 > [!NOTE]
-> Si marca un elemento **Exclude**, debe agregar una nota como justificación de por qué no pertenece a la solicitud de derechos del sujeto. Las notas son para fines internos y no se incluyen en los informes finales.
+> Si marca un elemento como **Excluir**, debe agregar una nota como justificación de por qué no pertenece a la solicitud de derechos del sujeto. Las notas son para fines internos y no se incluyen en los informes finales.
 
-Si el contenido parece ser un falso positivo, seleccione No  coincidir para excluir el archivo de los informes finales y marcar el elemento como algo que no debería haber sido detectado en la búsqueda. En el **panel desplegable Marcar como** no coincidir, seleccione Confirmar para  que sepamos que el elemento no coincide con los criterios de búsqueda.
+Si el contenido parece ser un falso positivo, seleccione **No coincidir** y, en el panel desplegable, seleccione **Confirmar**. Esta acción excluirá el archivo de los informes finales y marcará el elemento como algo que no debería haber sido detectado en la búsqueda.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -103,14 +103,14 @@ Las etiquetas se pueden usar para ayudarle a identificar elementos que necesitan
 
 Por ejemplo, si durante la revisión de datos determina que la organización no necesita conservar un elemento de contenido, puede aplicar la etiqueta **Eliminar** y, a continuación, exportar una lista de todos los archivos etiquetados para que pueda volver atrás y eliminar los elementos identificados cuando haya terminado con la solicitud.
 
-Las cinco etiquetas que se establecen y administran en [Configuración](priva-settings.md#data-review-tags) se aplican a todas las solicitudes de derechos de sujeto.
+Las cinco etiquetas que administra en **Configuración** se aplican a todas las solicitudes de derechos de sujeto.
 
 **Para agregar o quitar etiquetas:**
 
 - Seleccione el elemento de la lista en la **pestaña Datos recopilados** de la solicitud.
 - En el área de vista previa del elemento a la derecha de la lista, seleccione el **botón Aplicar etiquetas** en la fila inferior. También puede seleccionar los tres puntos a la derecha del nombre del elemento y seleccionar la **opción Aplicar etiquetas** .
 - Aparece un panel desplegable con la lista de etiquetas. Active la casilla situada junto a cualquiera de las etiquetas que desea aplicar al elemento. Si se desaproteba una casilla, se quitará la etiqueta.
-- Cuando esté satisfecho con las selecciones, seleccione **Guardar**, que guarda las selecciones de etiqueta y cierra el panel desplegable.
+- Cuando haya terminado, seleccione **Guardar**, que guarda las selecciones de etiqueta y cierra el panel desplegable.
 
 **Para agregar etiquetas personalizadas o actualizar descripciones de etiquetas:**
 - En la página Solicitudes de derechos de sujeto, seleccione **Configuración** en la esquina superior derecha de la pantalla para llegar a la configuración de Priva.
@@ -118,13 +118,11 @@ Las cinco etiquetas que se establecen y administran en [Configuración](priva-se
 
 **Para exportar una lista de elementos etiquetados:**
 - Vaya a la **página Datos recopilados** en una solicitud de derechos del sujeto.
-- Encima de la lista de elementos, seleccione el icono de flecha abajo que indica **Exportar** al pasar el mouse sobre él.
-- Se Excel un archivo de Excel se descargará. Abra el archivo cuando termine de descargar.
-
-El archivo Excel muestra las propiedades de todos los elementos recopilados por la búsqueda de la solicitud. Busque la **columna Etiquetas** para identificar y ordenar los elementos por etiqueta.
+- Encima de la lista de elementos, seleccione el icono de flecha abajo que indica **Exportar** cuando mantenga el mouse sobre él.
+- Se descargará Excel archivo que muestra las propiedades de todos los elementos recopilados por la búsqueda de la solicitud. Busque la **columna Etiquetas** para identificar y ordenar los elementos por etiqueta.
 
 #### <a name="use-the-annotate-command-to-redact-text"></a>Usar el comando Anotar para redactar texto
-Use **Anotación para** crear marcas en línea o redactar datos en un archivo seleccionado. Por ejemplo, si necesita incluir un archivo para una persona que también contiene la información personal de otros, puede usar la redacción **Área (** debajo del botón Dibujo de la barra de comandos) para cerrar toda la información que no pertenezca a la persona que realizó la solicitud. Una vez completadas las ediciones, seleccione **Incluir** para agregar el archivo redactado a la solicitud. La anotación crea una copia del archivo, de modo que no se modifica nada en el archivo original y permanecerá en su ubicación original. La copia se almacena en el blob de Azure.
+El **comando Anotar en** el área de revisión de contenido permite crear marcas en línea y redactar datos dentro de un elemento de contenido. Por ejemplo, si necesita incluir un archivo para una persona que también contiene la información personal de un interesado diferente, puede usar la redacción Área  en el botón Dibujo de la barra de comandos para apagón toda la información que no pertenezca a la persona que realizó la solicitud. Una vez completadas las ediciones, seleccione **Incluir** para agregar el archivo redactado a la solicitud. La anotación crea una copia del archivo, que se almacena en el blob de Azure. El archivo original permanece inalterado y almacenado en su ubicación original.
 
 #### <a name="enter-notes-about-a-file"></a>Escribir notas sobre un archivo
 Para agregar o revisar notas en un elemento, seleccione el elemento de su fila y vaya a la pestaña Notas **del** archivo del área de revisión de contenido a la derecha. También puede usar la opción **Agregar nota de archivo** para crear un nuevo comentario. Para revisar o agregar notas en un nivel de caso general, vaya a la pestaña **Notas** principal anterior y use **Agregar nota de caso**. Estas notas serán visibles para los usuarios que trabajen en la solicitud, pero no se incluirán en el informe final ni se compartirán con el interesado.

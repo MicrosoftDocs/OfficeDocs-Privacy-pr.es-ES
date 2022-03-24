@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la versión de prueba de Microsoft Priva, vea las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a documentación importante.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249112"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765513"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -47,7 +47,7 @@ Con la **solución de administración de riesgos de** privacidad, puede explorar
 - Capacitar a los trabajadores de la información para tomar decisiones inteligentes sobre el tratamiento de estos datos
 - Permitir a los usuarios administrar datos de forma eficaz y tomar medidas para cumplir con las normativas de privacidad en evolución
 
-### <a name="subject-rights-requests"></a>Solicitudes de derechos de sujeto
+### <a name="subject-rights-requests"></a>Solicitudes de derechos del interesado
 
 Con la **solución Solicitudes de derechos de** sujeto, puede obtener información sobre cómo controlar las consultas desde la solicitud inicial hasta la producción de informes.
 
@@ -122,7 +122,7 @@ La Administración de riesgos de privacidad puede notificar directamente a los p
 1. [Corregir problemas de notificaciones de correo electrónico](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [Enviar notificaciones en Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>Información sobre solicitudes de derechos de sujeto
+## <a name="learn-about-subject-rights-requests"></a>Información acerca de las solicitudes de derechos del interesado
 
 De acuerdo con ciertas normativas de privacidad de todo el mundo, los individuos (o los interesados) pueden realizar solicitudes para revisar o administrar los datos personales sobre sí mismos que las empresas han recopilado. Estas solicitudes también se conocen como solicitudes de derechos del interesado (DSR), solicitudes de acceso a datos del interesado (DSARs) o solicitudes de derechos del consumidor. Priva Subject Rights Requests puede ayudarle a administrar estas consultas.
 
@@ -163,15 +163,15 @@ Después de crear una solicitud de derechos de sujeto, Priva usará sus entradas
 
 Después de completar la revisión de datos para una solicitud de derechos de sujeto, puede pasar a la solicitud de cumplimiento.
 
-1. [Preparar informes finales para el interesado](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [Preparar informes finales para el interesado](subject-rights-requests-reports.md)
 1. [Integrar con soluciones de partners](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [Administrar la retención de datos](subject-rights-requests-reports.md#manage-data-retention)
+1. [Administrar la retención de datos](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatizar tareas de solicitudes de derechos del interesado
 
 Habilite Power Automate flujos de correo para Priva para automatizar tareas importantes para casos y usuarios, como crear vales en ServiceNow o agregar avisos de calendario sobre fechas de vencimiento.
 
-1. [Crear un nuevo flujo Power Automate de una plantilla](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
+1. [Crear un nuevo flujo Power Automate a partir de una plantilla](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [Compartir un flujo Power Automate de datos](subject-rights-requests-automate.md#share-a-power-automate-flow)
 1. [Editar o eliminar Power Automate flujo](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
 

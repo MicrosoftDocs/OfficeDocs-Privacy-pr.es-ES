@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre las opciones de configuración global de Microsoft Priva.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746777"
+ms.locfileid: "63758429"
 ---
 # <a name="configure-priva-settings"></a>Opciones de configuración en Priva
 
@@ -64,7 +64,3 @@ Siga los pasos siguientes para editar nombres y descripciones de etiquetas:
 La configuración de etiquetas se aplica a todas las solicitudes de derechos de sujeto.
 
 Obtenga más información [sobre cómo aplicar etiquetas al revisar los datos de una solicitud de derechos de sujeto](subject-rights-requests-data-review.md#apply-tags).
-
-En **Configuración**, visita **Etiquetas de revisión de datos** para revisar y administrar las etiquetas.
- 
-Estas etiquetas se pueden usar para indicar el contenido que necesitará más atención, como el contenido que podría necesitar eliminarse manualmente. En esta sección de configuración, puede editar los nombres y descripciones de las etiquetas personalizadas. También puede editar las descripciones de etiquetas de las etiquetas integradas proporcionadas por el sistema. Los nombres de las etiquetas del sistema no se pueden cambiar. Para obtener más información acerca de las solicitudes de derechos del sujeto, vea [Revisar los datos de una solicitud de derechos de sujeto](subject-rights-requests-data-review.md#step-3-review-data).
