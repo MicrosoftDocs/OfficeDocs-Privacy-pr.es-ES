@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre las opciones de configuración global de Microsoft Priva.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758429"
+ms.locfileid: "63765493"
 ---
 # <a name="configure-priva-settings"></a>Opciones de configuración en Priva
 
@@ -46,7 +46,7 @@ Use esta sección para cargar esquemas de datos que describen los atributos de l
 
 ## <a name="data-retention-periods"></a>Períodos de retención de datos
 
-Esta configuración está relacionada con solicitudes de derechos de sujeto priva. Le permite controlar su preferencia durante cuánto tiempo desea conservar los datos recopilados y los informes generados después de cerrar la solicitud. Se puede establecer en 30 o 90 días y se aplica a todas las solicitudes de derechos de sujeto que cree. Se recomienda comprobar que los períodos de retención de datos cumplen con las directivas y las obligaciones legales de la organización. Obtenga más información sobre [cómo establecer la retención de datos para solicitudes de derechos de sujeto](subject-rights-requests-reports.md#manage-data-retention).
+Esta configuración está relacionada con solicitudes de derechos de sujeto priva. Le permite controlar su preferencia durante cuánto tiempo desea conservar los datos recopilados y los informes generados después de cerrar la solicitud. Se puede establecer en 30 o 90 días y se aplica a todas las solicitudes de derechos de sujeto que cree. Se recomienda comprobar que los períodos de retención de datos cumplen con las directivas y las obligaciones legales de la organización. Obtenga más información sobre [la retención de datos para solicitudes de derechos de sujeto](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Etiquetas de revisión de datos
 
