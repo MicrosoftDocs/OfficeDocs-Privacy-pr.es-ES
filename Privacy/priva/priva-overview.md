@@ -1,5 +1,5 @@
 ---
-title: Obtenga información sobre Microsoft Priva
+title: Más información sobre Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva ayuda a las organizaciones a evaluar los datos personales almacenados en Microsoft 365, les ayuda a identificar y corregir los riesgos de privacidad y les ayuda a administrar solicitudes de derechos de sujeto a escala.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249113"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586463"
 ---
-# <a name="learn-about-microsoft-priva"></a>Obtenga información sobre Microsoft Priva
+# <a name="learn-about-microsoft-priva"></a>Más información sobre Microsoft Priva
 
 La privacidad es lo más importante para las organizaciones y los consumidores en la actualidad, y las preocupaciones sobre cómo se administran los datos privados aumentan constantemente. Los reglamentos y leyes como el Reglamento general de protección de datos (RGPD) de la Unión Europea y la Ley de privacidad de consumidores de California (CCPA) afectan a personas de todo el mundo, estableciendo reglas sobre cómo las organizaciones almacenan datos personales y dando derechos a las personas para administrar los datos personales recopilados por una organización.
 
@@ -91,7 +91,7 @@ Priva puede trabajar de la mano con [el Administrador de cumplimiento de Microso
 
 Los datos personales suelen ser información personal relacionada con una persona viva que se puede usar para identificar a esa persona. Puede ser un tipo de datos que puede identificar directamente a la persona, como un nombre, un número de pasaporte, un número de seguridad social, entre otros, o combinaciones de diferentes tipos de datos que se pueden usar para identificar a la persona. La definición de datos personales o información personal puede variar según la legislación aplicable, por lo que asegúrese de comprender los tipos de datos para los que tiene obligaciones legales.
 
-Priva usa funciones básicas de Microsoft 365 para ayudarle a identificar estos tipos de datos personales en función de su configuración, mediante el uso de tipos de información confidencial [(SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about). Para revisar la lista de todos los tipos de información confidencial definidos, vea [Definiciones de entidad de tipo de información confidencial](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Las organizaciones que pueden crear tipos de información confidencial personalizados también pueden aprovechar las que tienen Priva.
+Priva usa funciones básicas de Microsoft 365 para ayudarle a identificar estos tipos de datos personales en función de su configuración, mediante el uso de tipos de información confidencial [(SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Para revisar la lista de todos los tipos de información confidencial definidos, vea [Definiciones de entidad de tipo de información confidencial](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Las organizaciones que pueden crear tipos de información confidencial personalizados también pueden aprovechar las que tienen Priva.
 
 Priva evalúa los datos de su organización almacenados en los siguientes servicios Microsoft 365 dentro de su Microsoft 365 inquilino:
 
@@ -102,17 +102,46 @@ Priva evalúa los datos de su organización almacenados en los siguientes servic
 
 Priva evalúa solo los datos dentro del entorno de Microsoft 365 organización. No tiene acceso a datos personales que no forman parte del entorno de Microsoft 365 organización. Por ejemplo, no tiene acceso a la cuenta personal Microsoft 365 usuario.
 
+## <a name="priva-availability"></a>Disponibilidad de priva
+
+Microsoft Priva se ha lanzado en todo el mundo. Dependiendo de dónde haya aprovisionado una organización su inquilino, Es posible que Priva no esté totalmente disponible. En la siguiente lista se describe la disponibilidad de Priva en función de dónde haya aprovisionado una organización su espacio empresarial. Si Priva no está disponible, **Priva Privacy Risk Management** y **Priva Subject Rights Requests** no aparecerán en la navegación izquierda del Centro de cumplimiento de Microsoft 365. Seguiremos actualizando esta lista a medida que Priva se haga accesible en todas las ubicaciones geográficas.
+
+Visite [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) para obtener más información sobre el aprovisionamiento de datos en regiones geográficas y países.
+
+**Disponible**
+
+- Australia
+- Brasil
+- Canadá
+- Francia
+- Alemania
+- India
+- Japón
+- Reino Unido
+- Estados Unidos (nota: no está disponible para los clientes Community (GCC) del Departamento de Defensa (DoD) moderados, GCC altos o del Departamento de Defensa).
+
+**Aún no disponible**
+
+- Noruega
+- Polonia
+- Catar
+- Singapur
+- Sudáfrica
+- Corea del Sur
+- España
+- Suecia
+- Suiza
+- Emiratos Árabes Unidos
+
 ## <a name="more-resources"></a>Más recursos
 
-Para ver una vista previa de vídeo de Priva, consulta Administración de privacidad basada en [IA Microsoft 365](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics en YouTube.
+Vea un vídeo de 13 minutos [que explica las características de Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics en YouTube.
 
-Para obtener más información sobre cómo Microsoft aborda la privacidad y protege sus datos, visite:
+Para obtener más información sobre cómo Microsoft aborda la privacidad y protege sus datos, visite [Privacidad de Microsoft](/privacy).
 
-- [Privacidad de Microsoft](/privacy)
+## <a name="next-steps"></a>Siguientes pasos
 
-## <a name="next-steps"></a>Pasos siguientes
-
-Para empezar a usar Priva, consulte [Introducción a Priva](priva-setup.md).
+Para empezar a usar Priva, [consulte Comenzar con Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legales
 

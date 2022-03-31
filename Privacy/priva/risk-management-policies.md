@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo crear y personalizar directivas de privacidad para controlar los datos personales de su organización en Microsoft 365.
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249185"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586453"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Crear directivas en Administración de riesgos de privacidad
 
@@ -33,7 +33,7 @@ Durante la creación o edición de directivas, puede configurar notificaciones d
 
 Siga estos pasos para crear una directiva con cualquiera de las plantillas predeterminadas.
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Administración de riesgos de privacidad de Priva y seleccione **Directivas**.
+1. En la [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Administración de riesgos de privacidad de Priva y seleccione **Directivas**.
 1. Seleccione **Crear directiva**.
 1. Elija el tipo de plantilla que desee. Se abrirá un panel desplegable con información sobre la plantilla.
 1. Para revisar la configuración predeterminada de la plantilla, incluidos los tipos de datos, las ubicaciones de datos y las condiciones que desencadenan coincidencias de directiva, seleccione **Ver configuración**.
@@ -48,7 +48,7 @@ Para controlar pormenorización la configuración de una directiva, puede crear 
 
 Todos los tipos de directiva siguen este flujo básico. Determinadas opciones y configuraciones cambiarán en función de la directiva elegida.
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Administración de riesgos de privacidad de Priva y seleccione **Directivas**.
+1. En la [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Administración de riesgos de privacidad de Priva y seleccione **Directivas**.
 1. Seleccione **Crear directiva**.
 1. Elija la **opción** Personalizado para empezar a usar el asistente.
 1. Elija el tipo de plantilla de línea base: **Sobreexposición de datos,** **Transferencias de datos** o **Minimización de datos**. Cada una de ellas le dará determinadas opciones durante la creación de directivas.
@@ -90,7 +90,7 @@ Tenga en cuenta que la capacidad general de la Administración de riesgos de pri
 
 Las directivas de minimización de datos se centran en la antigüedad del contenido y en cuánto tiempo ha pasado desde que se modificó por última vez. La supervisión de los datos personales que aún se conservan en contenido antiguo sin usar puede ayudarle a administrar mejor los datos almacenados y reducir los riesgos. Esta configuración se controla en la **pantalla Condiciones** .
 
-De forma predeterminada, las directivas de minimización de datos buscan contenido que contenga datos personales que se crearon o modificaron por última vez hace al menos 60 días. Al editar o crear una directiva personalizada, puede seleccionar entre otros marcos de tiempo preestablecidos.
+De forma predeterminada, las directivas de minimización de datos buscan contenido que contenga datos personales que se crearon o modificaron por última vez hace al menos 30 días. Al editar o crear una directiva personalizada, puede seleccionar entre otros marcos de tiempo preestablecidos.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>Más información sobre la configuración de las directivas de transferencia de datos
 
@@ -98,7 +98,7 @@ Las directivas de transferencia de datos permiten supervisar la transferencia de
 
 De forma predeterminada, las directivas de transferencia de datos buscan transferencias entre Norteamérica y otras regiones. Al editar o crear una directiva personalizada, puede elegir el tipo de transferencia y, a continuación, realizar selecciones para las regiones o departamentos de remitente y destinatario.
 
-Las directivas de transferencia de datos también admiten proporcionar sugerencias y recomendaciones de directiva a los usuarios en Teams, para que puedan mantenerse informados sobre los procedimientos recomendados para el tratamiento de datos. Se puede alternar en la **pantalla Resultados** .
+Las directivas de transferencia de datos también admiten el suministro de sugerencias y recomendaciones de directiva a los usuarios en Teams, para que puedan mantenerse informados sobre los procedimientos recomendados para el tratamiento de datos. Se puede alternar en la **pantalla Resultados** .
 
 ## <a name="learn-about-settings-for-data-overexposure-policies"></a>Información sobre la configuración de las directivas de sobreexposición de datos
 
@@ -110,7 +110,7 @@ Su organización puede almacenar contenido en varios niveles de acceso, incluida
 
 De forma predeterminada, las directivas de sobreexposición de datos evalúan los tres niveles de acceso. Al editar o crear una directiva personalizada, puede elegir todos o cualquiera de estos niveles.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Para obtener más información acerca de cómo administrar las directivas y realizar cambios después de crearlas, consulte [Administrar directivas](risk-management-policies-manage.md).
 
