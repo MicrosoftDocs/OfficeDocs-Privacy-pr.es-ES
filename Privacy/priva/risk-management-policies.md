@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo crear y personalizar directivas de privacidad para controlar los datos personales de su organización en Microsoft 365.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865779"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930511"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Creación de directivas en Privacy Risk Management
 
@@ -33,7 +33,7 @@ Al crear o editar directivas, puede configurar notificaciones por correo electr�
 
 Siga estos pasos para crear una directiva mediante cualquiera de las plantillas predeterminadas.
 
-1. En la [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Priva Privacy Risk Management y seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), vaya a la sección Priva Privacy Risk Management y seleccione **Directivas**.
 1. Seleccione **Crear directiva**.
 1. Elija el tipo de plantilla que desee. Se abrirá un panel flotante con información sobre la plantilla.
 1. Para revisar la configuración predeterminada de la plantilla, incluidos los tipos de datos, las ubicaciones de datos y las condiciones que desencadenan coincidencias de directiva, seleccione **Ver configuración**.
@@ -48,7 +48,7 @@ Para tomar un control pormenorizado de la configuración de una directiva, puede
 
 Todos los tipos de directiva siguen este flujo básico. Ciertas opciones y configuraciones cambiarán en función de la directiva elegida.
 
-1. En la [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), vaya a la sección Priva Privacy Risk Management y seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), vaya a la sección Priva Privacy Risk Management y seleccione **Directivas**.
 1. Seleccione **Crear directiva**.
 1. Elija la opción **Personalizada** para empezar a usar el asistente.
 1. Elija el tipo de plantilla de línea base: **sobreexposición de datos,** **Transferencias de datos** o **Minimización de datos**. Cada uno de ellos le proporcionará ciertas opciones durante la creación de la directiva.

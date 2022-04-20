@@ -16,95 +16,95 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft Priva ayuda a las organizaciones a evaluar los datos personales almacenados en Microsoft 365, les ayuda a identificar y corregir los riesgos de privacidad y les ayuda a administrar solicitudes de derechos de sujeto a escala.
-ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
-ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
+description: Microsoft Priva ayuda a las organizaciones a evaluar los datos personales almacenados en Microsoft 365, les ayuda a identificar y corregir los riesgos de privacidad y a administrar las solicitudes de derechos de los interesados a escala.
+ms.openlocfilehash: 3de6c7ca4c5420dc0287f7f5e4d235798144f3fe
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586463"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930590"
 ---
 # <a name="learn-about-microsoft-priva"></a>Más información sobre Microsoft Priva
 
-La privacidad es lo más importante para las organizaciones y los consumidores en la actualidad, y las preocupaciones sobre cómo se administran los datos privados aumentan constantemente. Los reglamentos y leyes como el Reglamento general de protección de datos (RGPD) de la Unión Europea y la Ley de privacidad de consumidores de California (CCPA) afectan a personas de todo el mundo, estableciendo reglas sobre cómo las organizaciones almacenan datos personales y dando derechos a las personas para administrar los datos personales recopilados por una organización.
+En la actualidad, la privacidad es lo más importante para las organizaciones y los consumidores, y las preocupaciones sobre cómo se administran los datos privados aumentan constantemente. Normativas y leyes como el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA) afectan a personas de todo el mundo, estableciendo reglas para cómo las organizaciones almacenan datos personales y otorgando a las personas derechos para administrar los datos personales recopilados por una organización.
 
-Para cumplir los requisitos normativos y generar confianza del cliente, las organizaciones deben tomar una postura de "privacidad de forma predeterminada". En lugar de procesos manuales y una revisión de herramientas, las organizaciones necesitan una solución completa para abordar desafíos comunes como:
+Para cumplir los requisitos normativos y generar confianza en los clientes, las organizaciones deben adoptar una postura de "privacidad de forma predeterminada". En lugar de procesos manuales y una revisión de herramientas, las organizaciones necesitan una solución completa para abordar desafíos comunes como:
 
-- Proteger las cantidades crecientes de datos no estructurados frente a problemas de privacidad derivados de errores humanos
-- Ayudar a los empleados a adoptar prácticas de tratamiento de datos sólidas y capacitarlos para detectar y solucionar problemas
-- Comprender los posibles riesgos en la cantidad y el tipo de datos personales que almacenan y comparten
-- Cumplimiento de solicitudes de interesados, o solicitudes de derechos del sujeto, de forma eficaz y a tiempo
+- Protección de las crecientes cantidades de datos no estructurados frente a problemas de privacidad derivados de errores humanos
+- Ayudar a los empleados a adoptar prácticas sólidas de control de datos y a entrenarlos para detectar y corregir problemas
+- Descripción de los posibles riesgos en la cantidad y el tipo de datos personales que almacenan y comparten
+- Cumplimiento de solicitudes de interesados, o solicitudes de derechos del interesado, de forma eficaz y puntual
 
-Microsoft Priva le ayuda a cumplir estos desafíos para que pueda alcanzar sus objetivos de privacidad. Vea el vídeo siguiente para obtener información sobre cómo Priva ayuda a las organizaciones a proteger los datos personales y a crear un lugar de trabajo resistente a la privacidad:
+Microsoft Priva le ayuda a afrontar estos desafíos para que pueda lograr sus objetivos de privacidad. Vea el vídeo siguiente para obtener información sobre cómo Priva ayuda a las organizaciones a proteger los datos personales y a crear un área de trabajo resistente a la privacidad:
 
 **Introducción a Priva**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNgjz]
 
-## <a name="how-priva-helps-your-organization"></a>Cómo Ayuda Priva a su organización
+## <a name="how-priva-helps-your-organization"></a>Cómo Priva ayuda a su organización
 
 Priva proporciona funcionalidades que le ayudan a:
 
-- Identificar y proteger proactivamente contra riesgos de privacidad, como el acaparamiento de datos, las transferencias de datos problemáticas y la sobresharing de datos
+- Identificar y proteger de forma proactiva los riesgos de privacidad, como la acumulación de datos, las transferencias de datos problemáticas y el uso compartido excesivo de datos
 - Obtener visibilidad sobre el almacenamiento y el movimiento de datos personales
-- Capacitar a los empleados para tomar decisiones inteligentes de tratamiento de datos
-- Permitir a los usuarios administrar datos de forma eficaz y tomar medidas para cumplir con las normativas de privacidad en evolución
-- Administrar solicitudes de derechos de sujeto a escala
+- Capacitar a los empleados para tomar decisiones inteligentes sobre el control de datos
+- Permitir a los usuarios administrar datos de forma eficaz y tomar medidas para cumplir con las regulaciones de privacidad en constante evolución
+- Administración de solicitudes de derechos de sujeto a escala
 
-Las capacidades de Priva están disponibles a través de dos soluciones: **Priva Privacy Risk Management**, que proporciona visibilidad de los datos y las plantillas de directiva de su organización para reducir riesgos; y **Priva Subject Rights Requests**, que proporciona herramientas de automatización y flujo de trabajo para cumplir las solicitudes de datos. Puede elegir comprar uno o ambos módulos para que se adapten a las necesidades de su organización. Obtenga más información sobre [las soluciones de Priva](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).  
+Las funcionalidades de Priva están disponibles a través de dos soluciones: **Priva Privacy Risk Management**, que proporciona visibilidad sobre los datos y las plantillas de directiva de su organización para reducir los riesgos; y **Priva Subject Rights Requests**, que proporciona herramientas de automatización y flujo de trabajo para satisfacer las solicitudes de datos. Puede optar por comprar uno o ambos módulos para satisfacer las necesidades de su organización. Obtenga más información sobre [las soluciones priva](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).  
 
-### <a name="find-and-visualize-personal-data"></a>Buscar y visualizar datos personales
+### <a name="find-and-visualize-personal-data"></a>Búsqueda y visualización de datos personales
 
-Comprender su posición de privacidad comienza por tener una comprensión exhaustiva del contenido que la organización almacena en Microsoft 365 que contiene datos personales, dónde se encuentra en los servicios que usa y las condiciones en las que se administra. Priva ayuda a las organizaciones a descubrir datos personales automáticamente y a proporcionar análisis e información clave a los administradores para ayudarles a comprender los problemas de privacidad y los riesgos asociados en su organización. La solución evaluará dónde se almacenan los datos personales de su organización, cómo fluyen estos datos y las tendencias de datos personales a lo largo del tiempo.
+Comprender la posición de privacidad comienza por tener un conocimiento exhaustivo del contenido que su organización almacena en Microsoft 365 que contiene datos personales, dónde se encuentran los servicios que usa y las condiciones en las que se administran. Priva ayuda a las organizaciones a detectar datos personales automáticamente y a proporcionar análisis e información clave a los administradores para ayudarles a comprender los problemas de privacidad y los riesgos asociados en su organización. La solución evaluará dónde se almacenan los datos personales de su organización, cómo fluyen estos datos y las tendencias de datos personales a lo largo del tiempo.
 
-Estas ideas se presentan en el panel  Información general, que proporciona actualizaciones automáticas sobre los datos con tendencias importantes, y el perfil de **datos, que** le permite explorar análisis continuos. Estos conocimientos le ayudan a comprender los problemas de privacidad de su organización e identificar acciones para corregirlos.
+Estas conclusiones se presentan en el panel **información general** , que proporciona actualizaciones automáticas sobre los datos con tendencias importantes y el **perfil de datos**, que le permite explorar el análisis en curso. Estas conclusiones le ayudan a comprender los problemas de privacidad de su organización e identificar acciones para corregirlos.
 
-Para obtener más información, vea [Buscar y visualizar datos personales en Priva](priva-data-profile.md).
+Para obtener más información, consulte [Búsqueda y visualización de datos personales en Priva](priva-data-profile.md).
 
-### <a name="manage-privacy-risks-at-scale"></a>Administrar riesgos de privacidad a escala
+### <a name="manage-privacy-risks-at-scale"></a>Administración de riesgos de privacidad a escala
 
-Los entornos de datos complejos pueden presentar escenarios potencialmente riesgosos para los datos personales. Priva Privacy Risk Management proporciona herramientas para detectar estos riesgos, establecer directivas y procesos de corrección y notificar directamente a los usuarios sobre los problemas y las acciones recomendadas que deben realizarse. De este modo, puede informar y educar a los usuarios, además de permitirles controlar la mitigación de riesgos dentro de las herramientas que usan todos los días. Esto puede hacer un cambio positivo y duradero en los comportamientos de privacidad de la organización.
+Los entornos de datos complejos pueden presentar escenarios potencialmente peligrosos para los datos personales. Priva Privacy Risk Management proporciona herramientas para detectar estos riesgos, establecer directivas y procesos para la corrección y notificar directamente a los usuarios sobre los problemas y las acciones recomendadas que se deben realizar. De esta manera, puede informar y educar a los usuarios, además de permitirles controlar la mitigación de riesgos dentro de las herramientas que usan todos los días. Esto puede hacer un cambio duradero y positivo en los comportamientos de privacidad de su organización.
 
 Priva proporciona plantillas integradas y personalizables para establecer directivas continuas adaptadas a estos escenarios:
 
-- **Datos personales sobreexpuestos**: detecte datos personales abiertos y con privilegios elevados en su organización y priorice los esfuerzos de corrección para proteger los datos. Administre fácilmente los derechos de acceso a estos datos para proteger la privacidad y evitar un uso inadecuado.
-- **Transferencias de datos**: detectar y administrar la transferencia de datos personales entre departamentos de su organización o a través de fronteras nacionales o regionales. Esto puede ayudar a reducir el riesgo de exposición a datos o de salir de acuerdo con las normativas y leyes de privacidad.
+- **Datos personales sobreexpuestos**: descubra datos personales abiertos y con privilegios excesivos en su organización y priorice los esfuerzos de corrección para proteger los datos. Administre fácilmente los derechos de acceso a estos datos para proteger la privacidad y evitar el uso inadecuado.
+- **Transferencias de datos**: detecte y administre la transferencia de datos personales entre departamentos de su organización o a través de fronteras regionales o de países. Esto puede ayudar a reducir el riesgo de exposición de datos o de salir de acuerdo con las regulaciones y leyes de privacidad.
 - **Minimización de datos**: identifique los datos personales que no es necesario conservar y priorice los esfuerzos de corrección para eliminar estos datos.
 
-Una vez configurados, puede evaluar los datos de forma continua, recibir alertas cuando se detecten coincidencias de directivas y configurar notificaciones por correo electrónico a los usuarios sobre los pasos de corrección recomendados y el aprendizaje sobre los procedimientos recomendados.
+Una vez configurados, puede evaluar los datos de forma continua, recibir alertas cuando se detecten coincidencias de directivas y configurar notificaciones por correo electrónico a los usuarios sobre los pasos de corrección recomendados y el entrenamiento sobre los procedimientos recomendados.
 
-Para obtener más información, consulte [Create policies in Privacy Risk Management](risk-management-policies.md).
+Para más información, consulte [Creación de directivas en Privacy Risk Management](risk-management-policies.md).
 
-### <a name="efficiently-fulfill-personal-data-requests"></a>Cumplir eficazmente las solicitudes de datos personales
+### <a name="efficiently-fulfill-personal-data-requests"></a>Satisfacer de forma eficaz las solicitudes de datos personales
 
-Ciertas normativas de privacidad de todo el mundo permiten a los *individuos, también denominados interesados,* realizar solicitudes para revisar o administrar datos personales sobre sí mismos que las empresas han recopilado. Para las empresas que almacenan grandes cantidades de información no estructurada, encontrar los datos relevantes puede ser una tarea formidable.
+Ciertas regulaciones de privacidad en todo el mundo permiten a las personas, también *conocidas como interesados,* realizar solicitudes para revisar o administrar datos personales sobre sí mismos que las empresas han recopilado. Para las empresas que almacenan grandes cantidades de información no estructurada, encontrar los datos pertinentes puede ser una tarea formidable.
 
-Priva Subject Rights Requests le proporciona la capacidad de automatizar el cumplimiento de derechos del interesado con fácil acceso a datos relevantes y flujos de trabajo personalizables que se ajustan a los procesos empresariales existentes. Al buscar datos relacionados con un individuo, nuestra solución de solicitud de derechos de sujeto recopilará automáticamente datos de todo el entorno de Microsoft 365 y le ayudará a revisar los resultados y producir informes. Puede colaborar de forma segura con varias personas de la organización para completar las solicitudes. También puede personalizar los flujos de trabajo en función de los procesos empresariales con plantillas integradas.
+Priva Subject Rights Requests le proporciona la capacidad de automatizar el cumplimiento de los derechos de los interesados con fácil acceso a los datos pertinentes y flujos de trabajo personalizables que encajan en los procesos empresariales existentes. Al buscar datos relacionados con una persona, nuestra solución de solicitud de derechos del interesado recopilará automáticamente datos de todo el entorno de Microsoft 365 y le ayudará a revisar los resultados y generar informes. Puede colaborar de forma segura con varias personas de su organización para completar las solicitudes. También puede personalizar los flujos de trabajo en función de los procesos empresariales con plantillas integradas.
 
-Para obtener más información, vea [Información sobre solicitudes de derechos del sujeto priva](subject-rights-requests.md).
+Para obtener más información, consulte [Información sobre las solicitudes de derechos del sujeto priva](subject-rights-requests.md).
 
-### <a name="integrate-with-compliance-manager"></a>Integrar con el Administrador de cumplimiento
+### <a name="integrate-with-compliance-manager"></a>Integración con el Administrador de cumplimiento
 
-Priva puede trabajar de la mano con [el Administrador de cumplimiento de Microsoft](/microsoft-365/compliance/compliance-manager). El Administrador de cumplimiento ofrece plantillas de protección de datos y evaluación de privacidad que se corresponden con las normativas de cumplimiento y los estándares del sector en todo el mundo. En función de las evaluaciones que cree con estas plantillas, el Administrador de cumplimiento puede ayudarle a comprender los pasos que debe seguir para cumplir los requisitos normativos de su organización. Tomar medidas en Priva para proteger los datos personales que almacena puede contribuir a las evaluaciones de privacidad en el Administrador de cumplimiento y puede ayudar a mejorar la puntuación de cumplimiento.
+Priva puede trabajar de la mano con [el Administrador de cumplimiento de Microsoft Purview](/microsoft-365/compliance/compliance-manager). Compliance Manager ofrece plantillas de evaluación de privacidad y protección de datos que se corresponden con las regulaciones de cumplimiento y los estándares del sector en todo el mundo. En función de las evaluaciones que cree con estas plantillas, el Administrador de cumplimiento puede ayudarle a comprender qué pasos debe seguir para cumplir los requisitos normativos de su organización. Tomar medidas en Priva para proteger los datos personales que almacena puede contribuir a sus evaluaciones de privacidad en el Administrador de cumplimiento y puede ayudar a mejorar la puntuación de cumplimiento.
 
-## <a name="how-and-where-priva-identifies-items-with-personal-data"></a>Cómo y dónde Priva identifica los elementos con datos personales
+## <a name="how-and-where-priva-identifies-items-with-personal-data"></a>Cómo y dónde identifica Priva los elementos con datos personales
 
-Los datos personales suelen ser información personal relacionada con una persona viva que se puede usar para identificar a esa persona. Puede ser un tipo de datos que puede identificar directamente a la persona, como un nombre, un número de pasaporte, un número de seguridad social, entre otros, o combinaciones de diferentes tipos de datos que se pueden usar para identificar a la persona. La definición de datos personales o información personal puede variar según la legislación aplicable, por lo que asegúrese de comprender los tipos de datos para los que tiene obligaciones legales.
+Los datos personales suelen ser información personal relacionada con una persona viva que se puede usar para identificar a esa persona. Puede ser un tipo de datos que puede identificar directamente al individuo, como un nombre, un número de pasaporte, un número de seguro social, etc., o combinaciones de diferentes tipos de datos que se pueden usar para identificar al individuo. La definición de datos personales o información personal puede variar según la legislación aplicable, por lo que debe asegurarse de comprender los tipos de datos para los que tiene obligaciones legales.
 
-Priva usa funciones básicas de Microsoft 365 para ayudarle a identificar estos tipos de datos personales en función de su configuración, mediante el uso de tipos de información confidencial [(SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Para revisar la lista de todos los tipos de información confidencial definidos, vea [Definiciones de entidad de tipo de información confidencial](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Las organizaciones que pueden crear tipos de información confidencial personalizados también pueden aprovechar las que tienen Priva.
+Priva utiliza funcionalidades fundamentales de Microsoft 365 para ayudarle a identificar estos tipos de datos personales en función de la configuración, mediante el uso de [tipos de información confidencial (SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Para revisar la lista de todos los tipos de información confidencial [definidos, consulte Definiciones de entidades de tipo de información confidencial](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Las organizaciones que pueden crear tipos de información confidencial personalizados también pueden aprovecharlos con Priva.
 
-Priva evalúa los datos de su organización almacenados en los siguientes servicios Microsoft 365 dentro de su Microsoft 365 inquilino:
+Priva evalúa los datos de la organización almacenados en los siguientes servicios de Microsoft 365 dentro del inquilino de Microsoft 365:
 
 - Exchange Online
 - SharePoint Online
 - OneDrive para la Empresa
 - Microsoft Teams
 
-Priva evalúa solo los datos dentro del entorno de Microsoft 365 organización. No tiene acceso a datos personales que no forman parte del entorno de Microsoft 365 organización. Por ejemplo, no tiene acceso a la cuenta personal Microsoft 365 usuario.
+Priva evalúa solo los datos dentro del entorno de Microsoft 365 de la organización. No tiene acceso a datos personales que no forman parte del entorno de Microsoft 365 de la organización. Por ejemplo, no tiene acceso a la cuenta de Microsoft 365 personal de un usuario.
 
 ## <a name="priva-availability"></a>Disponibilidad de priva
 
-Microsoft Priva se ha lanzado en todo el mundo. Dependiendo de dónde haya aprovisionado una organización su inquilino, Es posible que Priva no esté totalmente disponible. En la siguiente lista se describe la disponibilidad de Priva en función de dónde haya aprovisionado una organización su espacio empresarial. Si Priva no está disponible, **Priva Privacy Risk Management** y **Priva Subject Rights Requests** no aparecerán en la navegación izquierda del Centro de cumplimiento de Microsoft 365. Seguiremos actualizando esta lista a medida que Priva se haga accesible en todas las ubicaciones geográficas.
+Microsoft Priva se ha implementado en todo el mundo. En función de dónde una organización haya aprovisionado su inquilino, Es posible que Priva no esté totalmente disponible. En la lista siguiente se describe la disponibilidad priva en función de dónde una organización haya aprovisionado su inquilino. Si Priva no está disponible, **Priva Privacy Risk Management** y **Priva Subject Rights Requests** no aparecerán en el panel de navegación izquierdo del Centro de cumplimiento de Microsoft 365. Seguiremos actualizando esta lista a medida que Priva sea accesible en todas las ubicaciones geográficas.
 
 Visite [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) para obtener más información sobre el aprovisionamiento de datos en regiones geográficas y países.
 
@@ -118,7 +118,7 @@ Visite [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterp
 - India
 - Japón
 - Reino Unido
-- Estados Unidos (nota: no está disponible para los clientes Community (GCC) del Departamento de Defensa (DoD) moderados, GCC altos o del Departamento de Defensa).
+- Estados Unidos (Nota: no disponible para los clientes de Community (GCC) moderados, GCC altos o del Departamento de Defensa (DoD).
 
 **Aún no disponible**
 
@@ -135,14 +135,14 @@ Visite [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterp
 
 ## <a name="more-resources"></a>Más recursos
 
-Vea un vídeo de 13 minutos [que explica las características de Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics en YouTube.
+Vea un vídeo de 13 minutos [en el que se explican las características de Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics en YouTube.
 
-Para obtener más información sobre cómo Microsoft aborda la privacidad y protege sus datos, visite [Privacidad de Microsoft](/privacy).
+Para obtener más información sobre cómo Microsoft aborda la privacidad y protege los datos, visite [Privacidad de Microsoft](/privacy).
 
 ## <a name="next-steps"></a>Siguientes pasos
 
-Para empezar a usar Priva, [consulte Comenzar con Priva](priva-setup.md).
+Para empezar a usar Priva, consulte [Comenzar con Priva](priva-setup.md).
 
-## <a name="legal-disclaimer"></a>Declinación de responsabilidades legales
+## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 
-[Declinación de responsabilidades legales de Microsoft Priva](priva-disclaimer.md)
+[Declinación de responsabilidades legal de Microsoft Priva](priva-disclaimer.md)
