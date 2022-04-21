@@ -15,25 +15,25 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre las funcionalidades de la solución de administración de riesgos de privacidad de Microsoft Priva para administrar la minimización de datos, la transferencia de datos y los riesgos de sobreexposición de datos. Use directivas para detectar y corregir problemas.
-ms.openlocfilehash: f5a263a958cd103ef8145f6006f689c9dffea5b0
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+description: Obtenga información sobre las funcionalidades de la solución Microsoft Priva Privacy Risk Management para administrar la minimización de datos, la transferencia de datos y los riesgos de sobreexposición de datos. Use directivas para detectar y corregir problemas.
+ms.openlocfilehash: 88d7bc968315845eebd6cdcae3d3344c75b31ee7
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865769"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014520"
 ---
 # <a name="learn-about-priva-privacy-risk-management"></a>Más información sobre Priva Privacy Risk Management
 
-Privacy Risk Management en Microsoft Priva le ofrece la capacidad de configurar directivas que identifiquen los riesgos de privacidad en el entorno de Microsoft 365 y permitan una corrección sencilla. Las directivas de Privacy Risk Management están diseñadas para ser guías internas y pueden ayudarle a:
+Privacy Risk Management en Microsoft Priva le ofrece la capacidad de configurar directivas que identifiquen los riesgos de privacidad en el entorno de Microsoft 365 y permitan una corrección sencilla. Las directivas de administración de riesgos de privacidad están diseñadas para ser guías internas y pueden ayudarle a:
 
-- Detectar datos personales sobreexpuestas para que los usuarios puedan protegerlos
-- Detectar y limitar las transferencias de datos personales entre departamentos o fronteras regionales
-- Ayudar a los usuarios a identificar y reducir la cantidad de datos personales no utilizados que se almacenan
+- Detecte datos personales sobreexpuestas para que los usuarios puedan protegerlos.
+- Detectar y limitar las transferencias de datos personales entre departamentos o fronteras regionales.
+- Ayude a los usuarios a identificar y reducir la cantidad de datos personales no utilizados que almacena.
 
-Las plantillas integradas de Privacy Risk Management para estos escenarios le proporcionan un fácil inicio en la creación de directivas. También puede ajustar el enfoque mediante la creación de [directivas personalizadas](risk-management-policies.md), usando cualquiera de estas plantillas como punto de partida.
+Privacy Risk Management ofrece plantillas integradas para estos escenarios que le ayudarán a crear directivas fácilmente. También puede ajustar el enfoque [mediante la creación de directivas personalizadas](risk-management-policies.md), con cualquiera de estas plantillas como punto de partida.
 
-Cuando se encuentran coincidencias de directivas, los administradores pueden revisar las alertas sobre los resultados y tomar decisiones sobre cómo controlar los datos mediante la creación de problemas para que los usuarios realicen más acciones. Para más información, consulte [Investigación y corrección de alertas en Administración de riesgos de privacidad](risk-management-alerts.md). También puede configurar notificaciones por correo electrónico y, para los tipos de directiva admitidos, Teams notificaciones para notificar directamente a los propietarios de contenido sobre las coincidencias de directivas. Pueden tomar medidas correctivas a partir de estas notificaciones y obtener más información sobre los procedimientos recomendados para controlar los datos con vínculos que proporcione a sus propios materiales de entrenamiento. Para obtener más información, consulte [Envío de notificaciones de usuario en Privacy Risk Management](risk-management-notifications.md).
+Cuando se encuentran coincidencias de directivas, los administradores pueden revisar las alertas sobre los hallazgos y tomar decisiones sobre cómo controlar los datos mediante la creación de problemas para que los usuarios realicen más acciones. Para más información, consulte [Investigación y corrección de alertas en Administración de riesgos de privacidad](risk-management-alerts.md). También puede configurar notificaciones por correo electrónico y, para los tipos de directiva admitidos, Teams notificaciones para notificar directamente a los propietarios de contenido sobre las coincidencias de directivas. Pueden tomar medidas correctivas a partir de estas notificaciones y obtener más información sobre los procedimientos recomendados para controlar los datos con vínculos que proporcione a sus propios materiales de entrenamiento. Para obtener más información, consulte [Envío de notificaciones de usuario en Privacy Risk Management](risk-management-notifications.md).
 
 ## <a name="learn-about-key-risk-scenarios"></a>Más información sobre los escenarios de riesgo clave
 
@@ -51,11 +51,17 @@ La transferencia de datos personales presenta riesgos, especialmente cuando se t
 
 Las directivas de transferencia de datos le permiten supervisar las transferencias entre diferentes regiones del mundo o entre departamentos de su organización, así como las transferencias fuera de la organización. Cuando se detecta una coincidencia de directiva, puede enviar a los usuarios notificaciones por correo electrónico que les permitan realizar acciones correctivas en el correo electrónico, como hacer que los elementos de contenido sean privados, notificar a los propietarios de contenido o etiquetar elementos para una revisión posterior.
 
+Obtenga información sobre cómo crear una [directiva de transferencia de datos](risk-management-policy-data-transfer.md).
+
 ## <a name="minimize-stored-data"></a>Minimizar los datos almacenados
 
 Con el tiempo, las empresas pueden recopilar grandes cantidades de datos personales de clientes o empleados. En ocasiones, esto incluye datos que ya no deben almacenarse y que no se usan. Este tipo de datos debe reducirse para limitar los riesgos de privacidad. Las directivas de minimización de datos se pueden usar para abordar los riesgos de este tipo.
 
 Las directivas de minimización de datos le permiten buscar los datos que su organización ha estado almacenando durante al menos un determinado período de tiempo. Esto puede ayudarle a administrar las prácticas de almacenamiento en curso. Cuando se encuentran coincidencias de directivas, las opciones de corrección incluyen marcar elementos para su eliminación, notificar a los propietarios de contenido o etiquetar elementos para su posterior revisión.
+
+## <a name="next-steps-learn-about-policies"></a>Pasos siguientes: más información sobre las directivas
+
+Visite [Directivas de administración de riesgos de privacidad](risk-management-policies.md) para obtener información sobre cómo crear directivas que aborden estas claves de privacidad.
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la evaluación de Microsoft Priva, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a documentación importante.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930531"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014400"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -87,21 +87,21 @@ Privacy Risk Management le ofrece la capacidad de configurar directivas que iden
 
 ## <a name="create-and-customize-policies"></a>Crear y personalizar directivas
 
-Cree nuevas directivas en Privacy Risk Management para abordar los escenarios de riesgo de privacidad importantes para su organización. Para un inicio rápido, use las plantillas predeterminadas para crear nuevas directivas para la sobreexposición de datos, las transferencias de datos y la minimización de datos y escenarios.
+Cree nuevas directivas en Privacy Risk Management para abordar los escenarios de riesgo de privacidad importantes para su organización. Para un inicio rápido, use la configuración predeterminada de la plantilla para crear nuevas directivas para la sobreexposición de datos, las transferencias de datos y la minimización de datos y escenarios.
 
-1. [Creación de una directiva a partir de una plantilla](risk-management-policies.md#create-a-policy-from-a-template)
-1. [Crear una directiva personalizada](risk-management-policies.md#create-a-custom-policy)
-1. [Más información sobre la configuración de claves para todas las directivas](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [Más información sobre la configuración de las directivas de minimización de datos](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [Más información sobre la configuración de las directivas de transferencia de datos](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [Más información sobre la configuración de las directivas de sobreexposición de datos](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [Creación de una directiva mediante una plantilla con la configuración predeterminada](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [Creación de una directiva mediante la personalización de la configuración de plantilla](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [Más información sobre la configuración de claves para todas las directivas](risk-management-policies.md)
+1. [Más información sobre la configuración de las directivas de minimización de datos](risk-management-policy-data-minimization.md)
+1. [Más información sobre la configuración de las directivas de transferencia de datos](risk-management-policy-data-transfer.md)
+1. [Más información sobre la configuración de las directivas de sobreexposición de datos](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>Administrar directivas
 
 Una vez que haya creado directivas en Privacy Risk Management para controlar escenarios de minimización de datos, transferencia de datos o sobreexposición de datos, es posible que desee revisar o actualizar la configuración de la directiva. También puede probar una nueva directiva antes de implementarla completamente para su uso continuo.
 
-1. [Visualización de los detalles de la directiva](risk-management-policies-manage.md#view-policy-details)
-1. [Prueba de la directiva](risk-management-policies-manage.md#test-your-policy)
+1. [Visualización de los detalles de la directiva](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [Prueba de la directiva](risk-management-policies-manage.md#testing-a-policy)
 1. [Eliminar una directiva](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>Descripción de las alertas y problemas de directivas
@@ -117,9 +117,9 @@ La revisión de alertas le permite identificar casos que necesitan seguimiento. 
 
 Privacy Risk Management puede notificar directamente a los propietarios de contenido las coincidencias de las directivas de sobreexposición, minimización de datos y transferencia de datos. Con las notificaciones por correo electrónico, los usuarios pueden averiguar fácilmente el contenido que necesitan revisar.
 
-1. [Preparación del contenido de entrenamiento para notificaciones de directivas](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [Configuración de notificaciones por correo electrónico para directivas](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [Corrección de problemas de las notificaciones por correo electrónico](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [Preparación del contenido de entrenamiento para notificaciones de directivas](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [Configuración de notificaciones por correo electrónico para directivas](risk-management-notifications.md#set-user-email-notifications)
+1. [Vista previa y personalización de notificaciones por correo electrónico](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Envío de notificaciones en Teams](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>Información acerca de las solicitudes de derechos del interesado

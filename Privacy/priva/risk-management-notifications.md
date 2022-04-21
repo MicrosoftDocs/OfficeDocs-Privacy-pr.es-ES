@@ -1,5 +1,5 @@
 ---
-title: Enviar notificaciones de usuario en Administración de riesgos de privacidad
+title: Envío de notificaciones de usuario en Privacy Risk Management
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,38 +15,66 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre cómo notificar a los propietarios de contenido sobre las coincidencias de directivas encontradas por la Administración de riesgos de privacidad y cómo pueden usar estas notificaciones de correo electrónico para corregir problemas.
-ms.openlocfilehash: 2215224adf932f806f16429560d4a694cd47a859
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Obtenga información sobre cómo notificar a los propietarios de contenido las coincidencias de directivas encontradas por Microsoft Priva Privacy Risk Management y cómo pueden usar estas notificaciones por correo electrónico para corregir problemas.
+ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249088"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014380"
 ---
-# <a name="send-user-notifications-in-privacy-risk-management"></a>Enviar notificaciones de usuario en Administración de riesgos de privacidad
+# <a name="user-notifications-in-privacy-risk-management"></a>Notificaciones de usuario en Administración de riesgos de privacidad
 
-La administración de riesgos de privacidad en Microsoft Priva puede notificar directamente a los propietarios de contenido las coincidencias de las directivas de sobreexposición de datos, minimización de datos y transferencia de datos. Con las notificaciones por correo electrónico, los usuarios pueden averiguar fácilmente el contenido que necesitan revisar y pueden usar mensajes directamente en el correo electrónico para aplicar las acciones correctivas adecuadas. Estos correos electrónicos también incluyen vínculos a su propia formación en privacidad. Para las directivas de transferencia de datos, también puede compartir notificaciones y sugerencias de directivas en Teams canales.
+Al configurar una directiva en Privacy Risk Management, puede optar por notificar a los usuarios cuando sus acciones cumplan las condiciones establecidas en la directiva. Hay dos tipos de notificaciones: correos electrónicos, que están disponibles para los tres tipos de directiva, y sugerencias que aparecen en Teams, que solo están disponibles para el tipo de directiva de transferencia de datos. Al crear o editar una directiva, puede decidir si activar estas notificaciones, con qué frecuencia enviarlas y personalizar su contenido.
 
-## <a name="prepare-training-content-for-policy-notifications"></a>Preparar contenido de aprendizaje para notificaciones de directivas
+El envío de notificaciones a los usuarios puede ser un componente importante para ayudar a su organización a cumplir sus objetivos de privacidad. Las notificaciones están diseñadas para:
 
-Es necesario incluir un vínculo a la formación en privacidad para las directivas que generan notificaciones. Proporcionar acceso a las directrices de privacidad de su organización le permite mantener a los usuarios informados sobre sus propios procedimientos recomendados y directivas. También puede dar contexto a las acciones de corrección sugeridas en el correo electrónico y ayudar a los usuarios a prepararse para tomar buenas decisiones de administración de datos en el futuro.
+- Dar a conocer inmediatamente a los usuarios cuándo sus acciones podrían exponer los datos personales a riesgos de privacidad.
+- Proporcione métodos de corrección directamente dentro de los correos electrónicos para que los usuarios puedan tomar medidas rápidas para proteger los datos en riesgo.
+- Dirija a los usuarios a las directrices de privacidad y los procedimientos recomendados de su organización.
 
-Antes de configurar la directiva, decide la dirección URL de aprendizaje que quieras incluir. Se puede proporcionar un vínculo por directiva, por lo que se recomienda elegir referencias específicas para cada escenario.
+Informar a los usuarios de posibles problemas en el momento y capacitarlos para corregir problemas y actualizar sus aptitudes, puede ser herramientas eficaces para crear prácticas de control de datos sólidas en toda la organización.
 
-## <a name="set-up-email-notifications-for-policies"></a>Configurar notificaciones de correo electrónico para directivas
+Revise las secciones siguientes para ayudarle a preparar y administrar las notificaciones de usuario para las coincidencias de directivas.
 
-Las notificaciones de correo electrónico se pueden configurar al crear una directiva personalizada o editar cualquier directiva. Consulta [Crear directivas en Administración de riesgos de privacidad](risk-management-policies.md) para obtener las instrucciones completas. La configuración de notificaciones por correo electrónico se encuentra en la **pestaña Resultados** del asistente para directivas. Aquí puede decidir la frecuencia con la que desea enviar notificaciones, establecer la dirección URL de aprendizaje de privacidad y escribir cualquier texto personalizado para el asunto o el cuerpo del correo electrónico.
+## <a name="prepare-training-content-for-notifications"></a>Preparación del contenido de entrenamiento para las notificaciones
 
-## <a name="remediate-issues-from-email-notifications"></a>Corregir problemas de notificaciones de correo electrónico
+Se requiere incluir un vínculo al entrenamiento de privacidad si decide enviar notificaciones de usuario cuando se detectan coincidencias de directivas. Proporcionar acceso a las directrices de privacidad de su organización le permite mantener informados a los usuarios sobre sus propios procedimientos recomendados y directivas. También puede dar contexto a las acciones de corrección sugeridas en el correo electrónico y ayudar a los usuarios a prepararse para tomar buenas decisiones de administración de datos en el futuro.
 
-Cuando los usuarios reciben notificaciones por correo electrónico sobre coincidencias de directiva, pueden seguir las indicaciones de los correos electrónicos para tomar inmediatamente medidas correctivas. Por ejemplo, si una directiva de sobreexposición de datos encuentra una coincidencia con los datos personales que pueden ser demasiado accesibles, el correo electrónico resultante puede proporcionar avisos de botón para que el elemento sea privado. Si el elemento indicado debe conservarse tal como está, los usuarios también pueden elegir conservar el elemento. Las acciones sugeridas serán relevantes para cada tipo de directiva.
+Antes de configurar la directiva, decida la dirección URL de entrenamiento que desea incluir. Se puede proporcionar un vínculo por directiva, por lo que se recomienda elegir referencias específicas para cada escenario.
 
-## <a name="send-notifications-in-teams"></a>Enviar notificaciones en Teams
+## <a name="set-user-email-notifications"></a>Establecimiento de notificaciones por correo electrónico de usuario
 
-Para las directivas de transferencia de datos, los usuarios pueden recibir sugerencias y recomendaciones de directivas en canales de Teams seguros cuando se detecta una coincidencia de directiva. Estas sugerencias educan a los usuarios sobre el uso responsable de datos personales. Sugerencias también incluirá vínculos a cursos relacionados.
+Puede configurar notificaciones por correo electrónico para todos los tipos de directiva al crear una nueva directiva o editar una directiva existente. Esta configuración se encuentra en la página **Resultados** del Asistente para la creación de directivas. Visite [Definir resultados: notificaciones de usuario y sugerencias](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) para obtener las instrucciones completas.
 
-Para obtener más información sobre cómo configurar estas notificaciones, consulta [Crear directivas en Administración de riesgos de privacidad](risk-management-policies.md#set-user-email-notifications).
+> [!NOTE]
+> La funcionalidad general de Privacy Risk Management para enviar notificaciones por correo electrónico se controla en Priva **Configuración**. Está habilitada de forma predeterminada. Si desactiva esta configuración, se detendrán todos los correos electrónicos, incluso si las notificaciones se han configurado en un nivel de directiva individual. Obtenga más información sobre la [configuración del correo electrónico de notificación de usuario](priva-settings.md#user-notification-emails).
 
-## <a name="legal-disclaimer"></a>Declinación de responsabilidades legales
+## <a name="send-notifications-in-teams"></a>Envío de notificaciones en Teams
 
-[Declinación de responsabilidades legales de Microsoft Priva](priva-disclaimer.md)
+En el caso de las directivas de transferencia de datos, puede elegir que los usuarios reciban sugerencias y recomendaciones de directivas en canales de Teams seguros cuando se detecta una coincidencia de directiva. Estas sugerencias informan a los usuarios sobre el uso responsable de los datos personales. Sugerencias también incluirá vínculos a entrenamiento relacionado.
+
+Para obtener más información sobre cómo configurar estas notificaciones, visite [Definir resultados: notificaciones y sugerencias de usuario](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips).
+
+## <a name="preview-and-customize-email-content"></a>Vista previa y personalización del contenido del correo electrónico
+
+Cuando los usuarios reciben notificaciones por correo electrónico sobre coincidencias de directivas, pueden seguir las indicaciones de los correos electrónicos para realizar inmediatamente una acción correctiva. Por ejemplo, si una directiva de sobreexposición de datos encuentra una coincidencia para los datos personales que pueden ser demasiado accesibles, el correo electrónico de notificación incluye un vínculo al elemento de contenido para que el usuario pueda revisarlo y botones para que el usuario marque el elemento como privado o mantenga su nivel de acceso actual. Las acciones sugeridas serán pertinentes para cada tipo de directiva diferente.
+
+Puede obtener una vista previa del contenido del correo electrónico y realizar sus propios cambios al ajustar esta configuración en el proceso de creación o edición de directivas. Para obtener una vista previa y editar el contenido del correo electrónico de notificación, siga estos pasos:
+
+1. Cree o edite la directiva iniciando los pasos descritos en el [proceso de creación de directivas guiadas](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings).
+
+2. En el paso **Resultados** del proceso, seleccione el cuadro situado junto a **Enviar un correo electrónico de notificación a los usuarios cuando se produzca una coincidencia de directiva**.
+
+3. Seleccione el botón **Vista previa y editar correo electrónico de notificación** que aparece debajo de la casilla de correo electrónico de notificación.
+
+4. Aparece un panel flotante con campos de texto rellenados previamente con el contenido de correo electrónico predeterminado. Puede editar cualquiera o todos los campos, entre los que se incluyen: la línea de asunto del correo electrónico, el encabezado del cuerpo, el contenido del cuerpo, el nombre para mostrar del entrenamiento de privacidad y la dirección URL de entrenamiento. La vista previa del correo electrónico se encuentra en la parte inferior del panel flotante y cambiará a medida que realice modificaciones en el texto predeterminado. Cuando esté satisfecho con el contenido del correo electrónico, seleccione **Guardar** para guardar la configuración. Para descartar los cambios en el correo electrónico predeterminado, seleccione la **X** en la esquina superior derecha del panel flotante para cerrarlo y volver al contenido predeterminado.
+
+5. En la página **Resultados** , seleccione **Siguiente**. Continúe con el asistente y, cuando llegue a la página **Finalizar** final, revise la configuración y seleccione **Enviar**.
+
+La configuración de notificación ahora estará en vigor para esta directiva. Si la directiva se está probando, no se enviarán notificaciones. Si la directiva está activada, se enviarán notificaciones. Vea más detalles sobre [cómo crear y administrar directivas](risk-management-policies.md).
+
+
+## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
+
+[Declinación de responsabilidades legal de Microsoft Priva](priva-disclaimer.md)
