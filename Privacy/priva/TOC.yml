@@ -14,10 +14,14 @@
   items:
     - name: Más información sobre la administración de riesgos de privacidad
       href: risk-management.md
-    - name: Crear directivas
+    - name: Más información sobre cómo crear y administrar directivas
       href: risk-management-policies.md
-    - name: Administrar directivas
-      href: risk-management-policies-manage.md
+    - name: Creación de una directiva de sobreexposición de datos
+      href: risk-management-policy-data-overexposure.md
+    - name: Crear una directiva de transferencia de datos
+      href: risk-management-policy-data-transfer.md
+    - name: Creación de una directiva de minimización de datos
+      href: risk-management-policy-data-minimization.md
     - name: Investigar y corregir alertas
       href: risk-management-alerts.md
     - name: Enviar notificaciones de usuario
