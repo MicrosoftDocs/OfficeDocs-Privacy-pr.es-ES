@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la información general y el perfil de datos en Priva y cómo obtener información sobre los datos personales en el entorno de Microsoft 365 de su organización.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930601"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059754"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Búsqueda y visualización de datos personales en Microsoft Priva
 
@@ -75,7 +75,7 @@ Esta información también aborda las coincidencias de las directivas en modo "T
 
 #### <a name="items-with-the-most-data-subject-content"></a>Elementos con el contenido de la mayoría de los interesados
 
-Esta información hace referencia a la información de la característica de coincidencia de datos en las solicitudes de derechos del interesado y muestra los elementos de contenido detectados dentro de Microsoft 365 que contienen la mayoría de los interesados. Para obtener más información sobre esa configuración, consulte [Más información sobre las solicitudes de derechos del sujeto](subject-rights-requests.md).
+Esta información expone elementos de contenido que contienen los datos personales de la mayoría de los interesados. Para recibir estas conclusiones, su organización debe configurar la [coincidencia de datos para las solicitudes de derechos del interesado](subject-rights-requests-data-match.md).
 
 Estos elementos pueden ayudar a confirmar la configuración de coincidencia de datos y ayudarle a mitigar los riesgos de privacidad relacionados con estos elementos. Seleccione **Ver resumen** para obtener una vista de resumen. Seleccione **Explorar** para obtener una vista detallada de hasta 100 de estos elementos. Aquí puede obtener una vista previa de estos elementos y determinar la relevancia y exportar la lista en .csv formato.
 
