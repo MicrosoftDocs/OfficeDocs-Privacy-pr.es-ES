@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo cargar información adicional a Microsoft Priva sobre los interesados.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930591"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059744"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Coincidencia de datos para solicitudes de derechos del interesado
 
 Con la coincidencia de datos, las organizaciones pueden permitir que Microsoft Priva identifique a los interesados en función de los valores de datos proporcionados exactamente. Esto puede ayudar a aumentar la precisión de la ubicación del contenido del interesado que se corresponde con esos valores de datos tanto para el personal interno como para los usuarios externos con los que interactúa. También simplifica la necesidad de proporcionar campos manualmente durante la creación de solicitudes de derechos del interesado, y proporciona contexto dentro de las solicitudes de derechos del sujeto y para el icono Información general que muestra los elementos con la mayoría del contenido del interesado. Para obtener más información sobre esa vista, consulte [Búsqueda y visualización de datos personales en Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Para usar la característica de coincidencia de datos, deberá ser miembro del grupo de roles Administración de privacidad. En Priva en el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), seleccione **Configuración** en la navegación superior y, a continuación, **Coincidencia de datos**. Desde aquí, tendrá que definir el esquema de datos personales y proporcionar una carga de datos personales como se muestra a continuación. Tenga en cuenta que puede agregar elementos y eliminar elementos que agregue a través de la interfaz de usuario. Sin embargo, no se puede modificar un elemento en su lugar desde la interfaz de usuario en este momento.
+Para usar la característica de coincidencia de datos, deberá ser miembro del grupo de roles Administración de privacidad. En Priva en el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), seleccione **Configuración** en la navegación superior y, a continuación, **Coincidencia de datos**. Desde aquí, tendrá que definir el esquema de datos personales y proporcionar una carga de datos personales como se muestra a continuación. Tenga en cuenta que puede agregar elementos y eliminar elementos que agregue, pero no puede modificar un elemento.
 
 ## <a name="prepare-for-data-import"></a>Preparación para la importación de datos
 
@@ -35,7 +35,7 @@ Antes de definir el esquema o cargar datos, deberá identificar el origen de la 
 
 ## <a name="define-the-personal-data-schema"></a>Definición del esquema de datos personales
 
-El esquema de datos personales describirá los atributos de los interesados. Upload este esquema en la primera pestaña del área de configuración de coincidencia de datos. Los archivos necesarios incluyen un archivo XML de **esquema de datos personales** y un archivo XML **de paquete de reglas** .
+El primer paso para configurar la coincidencia de datos es definir el esquema de datos personales, que describirá los atributos de los interesados. Cargará este esquema en la primera pestaña del área de configuración de coincidencia de datos. Los archivos necesarios incluyen un archivo XML de **esquema de datos personales** y un archivo XML **de paquete de reglas** .
 
 ### <a name="personal-data-schema-xml"></a>XML del esquema de datos personales
 
@@ -129,8 +129,13 @@ Cree un paquete de reglas en formato XML (con codificación Unicode), como en el
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>Tipos de información confidencial
+
+El segundo paso para configurar la coincidencia de datos es crear tipos de información confidencial únicos para la coincidencia de datos personales (PDM). [Los tipos de información confidencial (SIT)](/microsoft-365/compliance/sensitive-information-type-learn-about) son clasificadores basados en patrones que detectan información confidencial, como números de seguro social o tarjetas de crédito. La configuración de un tipo de información confidencial de PDM permite usar valores de datos exactos en lugar de valores genéricos para detectar coincidencias. Para comenzar este paso, seleccione **Crear tipo de información confidencial de PDM** para iniciar el asistente para la creación.
+
 ## <a name="upload-personal-data"></a>Upload datos personales
-Después de definir el esquema de datos personales, puede realizar la **carga de datos personales** en la segunda pestaña de la página de configuración de coincidencia de datos. Al seleccionar **Agregar**, elija el esquema personal que definió en el primer paso y, a continuación, cargue el archivo que contiene los datos personales.
+
+Después de definir el esquema de datos personales y los tipos de información confidencial, el tercer paso es cargar datos personales. Vaya a la pestaña **Carga de datos personales** , seleccione **Agregar** y elija el esquema personal que definió en el primer paso y, a continuación, cargue el archivo que contiene los datos personales.
 
 Para cargar estos datos personales, elija un archivo local o proporcione una dirección URL de SAS a una ubicación de Microsoft Azure Storage existente que contenga el archivo de datos personales.
 Si preparó un archivo como primer paso de este proceso que se ajusta al esquema creado, puede usar ese archivo para la carga.
