@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo crear una nueva solicitud de derechos de sujeto en Microsoft Priva.
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930611"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059734"
 ---
 # <a name="create-a-subject-rights-request"></a>Creación de una solicitud de derechos de sujeto
 
@@ -38,6 +38,21 @@ Priva Subject Rights Requests admite tres tipos diferentes de solicitudes:
 2. **Exportar**: proporciona un resumen y un archivo exportado de elementos de contenido que contienen la información personal del interesado. Estos son los elementos revisados y marcados como **Incluidos** durante la revisión de los datos recopilados por la configuración de búsqueda.
 
 3. **Lista etiquetada para seguimiento**: genera un resumen de los archivos etiquetados durante la revisión de datos que pueden requerir una acción adicional fuera de Priva. Por ejemplo, es posible que deba facilitar la eliminación de la información personal del interesado según su solicitud. Puede ver las etiquetas incluidas y configurar etiquetas personalizadas para su organización en [Configuración de Priva](priva-settings.md).
+
+## <a name="getting-started-with-your-first-request"></a>Introducción a la primera solicitud
+
+Al iniciar una evaluación o suscripción de solicitudes de derechos del sujeto, ofrecemos una configuración sencilla y rápida para la primera solicitud que usa la configuración predeterminada. Esta configuración puede ayudarle a explorar el flujo de trabajo de solicitud de derechos del sujeto y familiarizarse con su funcionalidad.
+
+La primera vez que llegue a la página Solicitudes de derechos del sujeto, verá un banner en la parte superior con un botón **Comenzar**. Cuando un usuario selecciona este botón, aparece un panel flotante con la información de ese usuario rellenada previamente en los campos nombre y correo electrónico, y muestra toda la configuración predeterminada.
+
+**Explorar la funcionalidad de las solicitudes con su información**: probar una solicitud de derechos de sujeto basada en su propia información puede ayudarle a familiarizarse con cada fase del proceso. Verá qué yeilds de búsqueda predeterminados y puede practicar la refinación de los resultados ajustando la configuración de búsqueda. En la pestaña **Datos recopilados** , puede revisar los elementos del área de vista previa a la derecha y practicar la redacción de texto, la aplicación de etiquetas, la introducción de notas y el marcado de elementos para incluir o excluir para el informe final (busque detalles en [Revisar datos para una solicitud de derechos del interesado](subject-rights-requests-data-review.md)).
+
+- No es necesario usar la información para crear la primera solicitud. Si está listo para iniciar una solicitud para un interesado, simplemente reemplace su nombre y dirección de correo electrónico por la información del interesado.
+
+Para aceptar toda la configuración y crear la solicitud, seleccione **Crear**. El panel se cerrará y verá la nueva solicitud en la página **Solicitudes de derechos del firmante** . Para cambiar cualquiera de los valores predeterminados antes de crear la solicitud, seleccione **Editar detalles de la solicitud**, lo que le coloca en el [asistente para la creación de solicitudes de derechos de asunto](#use-the-subject-rights-request-creation-wizard).
+
+> [!NOTE]
+> Cualquier solicitud que cree contará para la asignación de suscripción de prueba o de pago, independientemente de qué información del interesado se use para la solicitud. El período de retención de datos estándar de 30 días se aplica después de cerrar la solicitud. Obtenga información sobre cómo cambiar [los períodos de retención de las solicitudes de derechos de los interesados](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>Uso del Asistente para la creación de solicitudes de derechos del firmante
 

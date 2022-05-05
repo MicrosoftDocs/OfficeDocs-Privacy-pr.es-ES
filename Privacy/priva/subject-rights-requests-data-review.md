@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitudes de derechos del interesado recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: f417ebe6129f877c273fc2613a44e6b4a21f0be0
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3a1211d391ee196ad431fe19ab9134386c9803a4
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930641"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059764"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisión de los datos de una solicitud de derechos del interesado
 
@@ -33,12 +33,35 @@ Para ver los resultados iniciales de la búsqueda, vaya al área Priva del [port
 
 Seleccione la solicitud en la lista para ver los detalles de la solicitud. Aquí puede obtener más información sobre las propiedades de la solicitud, los resultados de la búsqueda y el estado de la solicitud. Esta página se convertirá en el centro para trabajar y colaborar en la administración de los archivos encontrados, la creación de informes y exportaciones y la finalización de la solicitud.
 
-Los iconos de la página de detalles de la solicitud incluyen:
+En la pestaña **Información general** de la página de detalles de la solicitud se proporcionan detalles sobre la solicitud, un indicador de progreso que muestra el paso actual e información clave sobre los datos encontrados. Los iconos de esta página incluyen lo siguiente:
 
-- **Detalles**: detalles esenciales sobre la solicitud, incluida su fecha límite y fecha de solicitud, su descripción y la normativa de privacidad relacionada.
-- **Progreso**: escala de tiempo que indica los pasos completados y las tareas que aún no se han terminado.
-- Estadísticas sobre la fase de progreso actual. Este icono puede mostrar información como un resumen de estimación de datos, cuántos elementos se encontraron en la búsqueda y sus ubicaciones en Microsoft 365, o el estado de las exportaciones.
-- **Elementos prioritarios que se van a revisar**: este icono mostrará información sobre los elementos importantes que Priva ha detectado automáticamente. Por ejemplo, esto podría incluir información confidencial que ya lleva una etiqueta de confidencialidad de Microsoft o elementos con datos sobre varias personas que pueden requerir censura. Esto ayudará a los administradores a saber dónde empezar en su revisión. Los elementos de prioridad se pueden encontrar en Datos recopilados mediante el filtrado por la columna "Tipos de prioridad".
+##### <a name="details"></a>Detalles
+
+La tarjeta **Detalles** muestra información básica para orientarlo a la solicitud, como su fecha límite, la fecha de creación, la descripción y el reglamento de privacidad relacionados con la solicitud.
+
+##### <a name="progress"></a>Progress
+
+La tarjeta **Progreso** enumera cada paso del proceso: Estimación de datos, Recuperar datos, Revisar datos, Generar informes y Cerrar la solicitud. Un círculo azul relleno junto al paso indica el paso en el que se encuentra actualmente. Una marca de verificación dentro del círculo azul significa que el paso está completo y el círculo sin rellenar significa que el paso aún no se ha iniciado.
+
+##### <a name="total-number-of-items-found"></a>Número total de elementos encontrados
+
+Estadísticas sobre la fase de progreso actual. Este icono puede mostrar información como un resumen de estimación de datos, cuántos elementos se encontraron en la búsqueda y sus ubicaciones en Microsoft 365, o el estado de las exportaciones.
+
+##### <a name="priority-items-to-review"></a>Elementos prioritarios que se van a revisar
+
+El icono **Elementos prioritarios para revisar** muestra los elementos que puede que desee priorizar al iniciar la revisión. El icono muestra un recuento de elementos que pertenecen a las categorías siguientes:
+- **Confidencial**: se trata de elementos que tienen aplicada una [etiqueta de confidencialidad de Microsoft](/microsoft-365/compliance/sensitivity-labels) . Por ejemplo, un documento de Word con una etiqueta "Extremadamente confidencial". 
+- **Datos de varias personas**: estos elementos contienen los datos personales de más de una persona. Si desea incluir estos elementos como parte del paquete de datos final, deberá redactar los datos irrelevantes en los archivos. Consulte [Paso 3: Revisar los datos](#step-3-review-data) a continuación para obtener más información. Tenga en cuenta que, para que Priva identifique elementos con datos de varias personas, su organización debe configurar la [coincidencia de datos para las solicitudes de derechos del interesado](subject-rights-requests-data-match.md).
+
+**Cómo localizar los elementos de prioridad:**
+
+En primer lugar, asegúrese de que ha habilitado la vista de ellos en la tabla De datos **recopilados** de elementos siguiendo estos pasos:
+
+- En la pestaña **Datos recopilados** , seleccione **Personalizar columnas** en la parte superior de la lista de elementos.
+- En el panel flotante **Editar columnas** , coloque una comprobación junto a **Tipos de prioridad**.
+- Seleccione **Aplicar**. La lista de elementos ahora tendrá una columna **Tipos de prioridad** .
+
+Ahora puede identificar los elementos de prioridad y buscarlos mediante la ordenación de la columna **Tipo de prioridad** para agrupar tipos similares.
 
 ### <a name="understand-progress-stages"></a>Descripción de las fases de progreso
 
