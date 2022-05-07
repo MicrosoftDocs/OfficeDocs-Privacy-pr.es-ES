@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo administrar las alertas y los problemas generados por las coincidencias de directivas en Microsoft Priva Privacy Risk Management.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014390"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268333"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Investigación y corrección de alertas en Privacy Risk Management
 
@@ -71,9 +71,9 @@ Para revisar el contenido asociado a un problema, elija la acción **Revisar con
 
 - **Notificar al propietario**: notifique al propietario del contenido sobre el problema detectado.
 
-- **Aplicar etiqueta de retención**: agregue una etiqueta sobre la retención de datos para este elemento. [Obtenga más información sobre las etiquetas de retención](/microsoft-365/compliance/create-apply-retention-labels).
+- **Aplicar etiqueta de retención**: agregue una etiqueta para este elemento que pueda conservar, eliminar o conservar y, a continuación, eliminarla después de una hora especificada. [Obtenga más información sobre las etiquetas de retención](/microsoft-365/compliance/retention).
 
-- **Aplicar etiqueta de confidencialidad**: agregue una etiqueta sobre la confidencialidad de los datos de este elemento. [Obtenga más información sobre las etiquetas de confidencialidad](/microsoft-365/compliance/sensitivity-labels).
+- **Aplicar etiqueta de confidencialidad**: agregue una etiqueta para este elemento que identifique su confidencialidad y, opcionalmente, agregue protección que incluya marcas visuales y cifrado. [Obtenga más información sobre las etiquetas de confidencialidad](/microsoft-365/compliance/sensitivity-labels).
 
 - **Marcar como no una coincidencia**: identifique un resultado de búsqueda como falso positivo para quitar el elemento de contenido de la consideración.
 
