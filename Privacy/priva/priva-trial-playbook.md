@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre la evaluación de Microsoft Priva, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a documentación importante.
-ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Obtenga información sobre la Microsoft Priva prueba, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a la documentación importante.
+ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014400"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678207"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -36,7 +36,7 @@ Con las recomendaciones de Microsoft, aprenderá cómo Priva puede ayudarle a id
 
 *Estas acciones son recomendaciones sobre características clave para probar en la versión de prueba de 90 días.*
 
-Inicie la prueba mediante la configuración de los requisitos previos. Tenga en cuenta que Priva consta de dos soluciones clave, Priva Privacy Risk Management y Priva Subject Rights Requests, que se pueden probar y comprar por separado. Los detalles de licencias y compras se pueden encontrar en [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
+Inicie la prueba mediante la configuración de los requisitos previos. Tenga en cuenta que Priva consta de dos soluciones clave, Administración de riesgo de privacidad Priva y Solicitudes de los interesados Priva, que se pueden probar y comprar por separado. Los detalles de licencias y compras se pueden encontrar en [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
 
 ### <a name="privacy-risk-management"></a>Administración de riesgos de privacidad
 
@@ -57,19 +57,19 @@ Con la solución **Solicitudes de derechos del firmante** , puede aprender a con
 
 Si está listo para empezar a usar Microsoft Priva, siga estos pasos para configurar los requisitos previos y empezar a explorar la información de privacidad.
 
-1. [Confirmación de suscripciones y licencias](priva-setup.md#step-1-confirm-subscriptions-and-licensing)
-1. [Establecimiento de permisos de usuario y asignación de roles](priva-setup.md#step-3-set-user-permissions-and-assign-roles)
+1. [Confirmación de suscripciones y licencias](priva-setup.md#confirm-subscriptions-and-licensing)
+1. [Establecimiento de permisos de usuario y asignación de roles](priva-setup.md#set-user-permissions-and-assign-roles)
 1. Seleccione "Iniciar prueba" y lo siguiente se realizará automáticamente:
-    - Las licencias de prueba priva están habilitadas (esto sucede en tiempo real)
+    - Priva licencias de prueba están habilitadas (esto sucede en tiempo real)
     - Se generan conclusiones de privacidad (esto tarda 24 horas)
 
 ![Captura de pantalla de la pantalla de bienvenida.](../media/priva-insights.png)
 
 ## <a name="start-finding-and-visualizing-privacy-risks"></a>Empezar a buscar y visualizar riesgos de privacidad
 
-Priva le ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
+Priva ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
 
-Para empezar, vaya a la sección Priva del [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
+Para empezar, vaya a la sección Priva de la [portal de cumplimiento Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
 
 1. [Información general](priva-data-profile.md#explore-the-overview-page): proporciona una vista agregada de la posición de privacidad, incluido el volumen, la categoría, la ubicación y el movimiento de datos personales en el entorno de Microsoft 365. Además, obtendrá visibilidad sobre el estado actual y las tendencias de los riesgos de privacidad asociados derivados de que los datos personales se compartan, transfieran o no se usen en exceso.
 1. [Perfil de datos](priva-data-profile.md#explore-the-data-profile-page): proporciona una instantánea de los datos personales que la organización almacena en Microsoft 365, incluidos el volumen, el tipo y la ubicación (almacenamiento y geografía).
@@ -124,7 +124,7 @@ Privacy Risk Management puede notificar directamente a los propietarios de conte
 
 ## <a name="learn-about-subject-rights-requests"></a>Información acerca de las solicitudes de derechos del interesado
 
-De acuerdo con ciertas regulaciones de privacidad en todo el mundo, las personas (o los interesados) pueden hacer solicitudes para revisar o administrar los datos personales sobre sí mismos que las empresas han recopilado. Estas solicitudes también se conocen como solicitudes de derechos del interesado (DSR), solicitudes de acceso a datos del interesado (DSARs) o solicitudes de derechos del consumidor. Priva Subject Rights Requests puede ayudarle a controlar estas consultas.
+De acuerdo con ciertas regulaciones de privacidad en todo el mundo, las personas (o los interesados) pueden hacer solicitudes para revisar o administrar los datos personales sobre sí mismos que las empresas han recopilado. Estas solicitudes también se conocen como solicitudes de derechos del interesado (DSR), solicitudes de acceso a datos del interesado (DSARs) o solicitudes de derechos del consumidor. Solicitudes de los interesados Priva puede ayudarle a controlar estas consultas.
 
 1. [Creación de solicitudes y recopilación de datos](subject-rights-requests-create.md)
 1. [Coincidencia de datos](subject-rights-requests-data-match.md)
@@ -144,7 +144,7 @@ Los administradores de administración de derechos del sujeto pueden abrir nueva
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Administración de la coincidencia de datos para solicitudes de derechos del interesado
 
-Con la coincidencia de datos, las organizaciones pueden permitir que Priva identifique a los interesados en función de los valores de datos proporcionados exactamente.
+Con la coincidencia de datos, las organizaciones pueden habilitar Priva para identificar a los interesados en función de los valores de datos proporcionados exactamente.
 
 1. [Preparación para la importación de datos](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [Definición del esquema de datos personales](subject-rights-requests-data-match.md#define-the-personal-data-schema)
@@ -169,7 +169,7 @@ Después de completar la revisión de datos para una solicitud de derechos del i
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatizar tareas de solicitudes de derechos del interesado
 
-Habilite Power Automate flujos para Priva para automatizar tareas importantes para casos y usuarios, como la creación de vales en ServiceNow o la adición de recordatorios de calendario sobre fechas de vencimiento.
+Habilite flujos de Power Automate para Priva para automatizar tareas importantes para casos y usuarios, como la creación de vales en ServiceNow o la adición de recordatorios de calendario sobre fechas de vencimiento.
 
 1. [Creación de un nuevo flujo de Power Automate a partir de una plantilla](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [Compartir un flujo de Power Automate](subject-rights-requests-automate.md#share-a-power-automate-flow)
@@ -183,4 +183,4 @@ Habilite Power Automate flujos para Priva para automatizar tareas importantes pa
 
 **Obtenga más información sobre Microsoft Priva**: blogs, planes, precios [aquí](https://aka.ms/privacymgmt/web).
 
-**Comprar Microsoft Priva**: la administración de riesgos de privacidad y las solicitudes de derechos del sujeto se venden por separado. Los detalles de licencias y compras se pueden encontrar en [Microsoft.com](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
+**Microsoft Priva de compra**: la administración de riesgos de privacidad y las solicitudes de derechos del sujeto se venden por separado. Los detalles de licencias y compras se pueden encontrar en [Microsoft.com](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
