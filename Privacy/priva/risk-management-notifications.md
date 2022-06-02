@@ -1,5 +1,5 @@
 ---
-title: Envío de notificaciones de usuario en Privacy Risk Management
+title: Notificaciones de usuario en Administración de riesgos de privacidad
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre cómo notificar a los propietarios de contenido las coincidencias de directivas encontradas por Microsoft Priva Privacy Risk Management y cómo pueden usar estas notificaciones por correo electrónico para corregir problemas.
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Obtenga información sobre cómo notificar a los propietarios de contenido las coincidencias de directivas encontradas por Gestión de riesgos de privacidad Microsoft Priva y cómo pueden usar estas notificaciones por correo electrónico para corregir problemas.
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014380"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851655"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>Notificaciones de usuario en Administración de riesgos de privacidad
 
@@ -77,4 +77,4 @@ La configuración de notificación ahora estará en vigor para esta directiva. S
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 
-[Declinación de responsabilidades legal de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva declinación de responsabilidades legal](priva-disclaimer.md)

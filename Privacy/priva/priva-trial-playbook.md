@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la Microsoft Priva prueba, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a la documentación importante.
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678207"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851695"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -164,10 +164,10 @@ Después de crear una solicitud de derechos de sujeto, Priva usará sus entradas
 Después de completar la revisión de datos para una solicitud de derechos del interesado, puede pasar a solicitar el cumplimiento.
 
 1. [Preparación de informes finales para el interesado](subject-rights-requests-reports.md)
-1. [Integración con soluciones de asociados](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [Integración y ampliación a través de Microsoft Graph API y Power Automate](subject-rights-requests-automate.md)
 1. [Administración de la retención de datos](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>Automatizar tareas de solicitudes de derechos del interesado
+## <a name="extend-with-power-automate"></a>Extensión con Power Automate
 
 Habilite flujos de Power Automate para Priva para automatizar tareas importantes para casos y usuarios, como la creación de vales en ServiceNow o la adición de recordatorios de calendario sobre fechas de vencimiento.
 
