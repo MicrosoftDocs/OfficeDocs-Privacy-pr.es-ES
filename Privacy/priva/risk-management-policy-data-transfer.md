@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre cómo crear una directiva de control de datos en Microsoft Priva Privacy Risk Management para detener las transferencias de datos personales dentro o fuera de su organización.
-ms.openlocfilehash: 6d491a7a65035aa1e3a405f36ef30b95f9c29245
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Obtenga información sobre cómo crear una directiva de control de datos en Gestión de riesgos de privacidad Microsoft Priva para detener las transferencias de datos personales dentro o fuera de su organización.
+ms.openlocfilehash: eba53580365d1fee387c05a54093ab04e41cd15f
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014490"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046654"
 ---
 # <a name="data-transfer-policies-in-privacy-risk-management"></a>Directivas de transferencia de datos en Privacy Risk Management
 
@@ -44,7 +44,7 @@ La directiva de transferencia de datos predeterminada detecta cuándo se envían
 
 Siga estos pasos para crear una directiva de transferencia de datos predeterminada:
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), busque Priva Privacy Risk Management en el panel de navegación izquierdo y seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Administración de riesgo de privacidad Priva en el panel de navegación izquierdo y seleccione **Directivas**.
 
 2. Seleccione **Crear una directiva** en la esquina superior derecha de la pantalla, que muestra un panel flotante que enumera todas las opciones de creación de directivas.
 
@@ -80,7 +80,7 @@ La opción de directiva personalizada es un proceso guiado para crear una nueva 
 
 Complete los pasos siguientes para crear una nueva directiva de transferencia de datos:
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), busque Priva Privacy Risk Management en el panel de navegación izquierdo y seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Administración de riesgo de privacidad Priva en el panel de navegación izquierdo y seleccione **Directivas**.
 
 2. Seleccione el botón **Crear una directiva** en la esquina superior derecha de la pantalla, que muestra un panel flotante que enumera todas las opciones de creación de directivas.
 
@@ -124,6 +124,6 @@ Complete los pasos siguientes para crear una nueva directiva de transferencia de
 
 Después de unos segundos, verá una confirmación de que se creó la directiva. Seleccione **Listo** en la página de confirmación, que le llevará a la página **Directivas** , donde verá la nueva directiva en la parte superior de la tabla.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Visite las [directivas de administración de riesgos de privacidad](risk-management-policies.md) para obtener más información sobre cómo editar y administrar directivas.

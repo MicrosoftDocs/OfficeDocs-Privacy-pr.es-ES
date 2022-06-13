@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Obtenga información sobre cómo crear y administrar directivas en Microsoft Priva Privacy Risk Management para controlar los datos personales de su organización en Microsoft 365.
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Obtenga información sobre cómo crear y administrar directivas en Gestión de riesgos de privacidad Microsoft Priva para controlar los datos personales de su organización en Microsoft 365.
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014500"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046614"
 ---
 # <a name="privacy-risk-management-policies"></a>Directivas de administración de riesgos de privacidad
 
@@ -43,7 +43,7 @@ Privacy Risk Management tiene tres plantillas de directiva diseñadas para ayuda
 
 Al crear una directiva directamente desde una plantilla, se elegirá la mayoría de la configuración automáticamente para ayudarle a ponerse en marcha rápidamente. Siga estos pasos para crear una directiva con la configuración predeterminada mediante una de nuestras plantillas:
 
-1. En el [centro de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Priva Privacy Risk Management en el panel de navegación izquierdo y seleccione **Directivas**.
+1. En el [Centro de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Administración de riesgo de privacidad Priva en el panel de navegación izquierdo y seleccione **Directivas**.
 
 2. Seleccione **Crear una directiva** en la esquina superior derecha de la pantalla, que muestra un panel flotante que enumera todas las opciones de creación de directivas.
 
@@ -61,7 +61,7 @@ La opción de directiva personalizada es un proceso guiado para crear una direct
 
 Siga los pasos siguientes para crear una directiva:
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), busque Priva Privacy Risk Management en el panel de navegación izquierdo. En el menú desplegable, seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Administración de riesgo de privacidad Priva en el panel de navegación izquierdo. En el menú desplegable, seleccione **Directivas**.
 
 2. Seleccione **Crear directiva**.
 
@@ -242,7 +242,7 @@ La tarjeta de estado de la directiva indicará si la directiva está en uno de l
 
 La tarjeta **Coincidencias por ubicación** muestra el número de elementos de contenido detectados por la directiva según Microsoft 365 ubicación.
 
-#### <a name="user-notifications"></a>Notificaciones del usuario
+#### <a name="user-notifications"></a>Notificaciones de usuario 
 
 La tarjeta Notificaciones de usuario muestra un gráfico de barras que muestra el número de correos electrónicos de notificación de usuario **generados** por la directiva si tiene esas funcionalidades activadas.
 
@@ -273,7 +273,7 @@ Puede editar la configuración de una directiva en cualquier momento, ya sea en 
 
 Para editar una directiva, siga estos pasos:
 
-1. En el [Centro de cumplimiento de Microsoft 365](https://compliance.microsoft.com/), busque Priva Privacy Risk Management en el panel de navegación izquierdo. En el menú desplegable, seleccione **Directivas**.
+1. En el [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/), busque Administración de riesgo de privacidad Priva en el panel de navegación izquierdo. En el menú desplegable, seleccione **Directivas**.
 
 2. Seleccione la directiva que desea editar desde su fila en la página **Directivas** , que muestra la página de detalles de esa directiva.
 
@@ -289,10 +289,10 @@ Si necesita quitar una directiva de Administración de riesgos de privacidad exi
 
 Se le pedirá que confirme su elección antes de que la eliminación sea definitiva y la directiva se quite de forma permanente. La eliminación de una directiva no afectará a los archivos previamente evaluados por la directiva, y los problemas y alertas generados por la directiva seguirán aparecen en las páginas **Alertas** y **problemas** .
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Una vez que la directiva está activada y comienza a generar alertas, querrá empezar a comprender los riesgos que pueden presentar a su organización. Obtenga información sobre cómo administrar alertas, investigar eventos y realizar acciones de corrección en Privacy Risk Management visitando [Investigar y corregir alertas](risk-management-alerts.md).
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 
-[Declinación de responsabilidades legal de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva declinación de responsabilidades legal](priva-disclaimer.md)

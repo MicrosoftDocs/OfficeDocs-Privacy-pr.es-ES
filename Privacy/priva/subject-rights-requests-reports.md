@@ -1,5 +1,5 @@
 ---
-title: Generación de informes para satisfacer una solicitud de derechos del sujeto
+title: Generación de informes y cierre una solicitud
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo administrar los paquetes de datos creados por Microsoft Priva para solicitudes de derechos del interesado y satisfacer la solicitud al interesado.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851674"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046694"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>Generación de informes para satisfacer una solicitud de derechos del sujeto
+# <a name="generate-reports-and-close-a-request"></a>Generación de informes y cierre una solicitud
 
-Después de completar la revisión de datos de una solicitud de derechos del interesado en Microsoft Priva, puede continuar para satisfacer la solicitud. Priva creará informes y recopilará los archivos marcados como **Incluir** durante el proceso de revisión de datos. Los archivos seleccionados de estos paquetes de datos se pueden enviar al interesado para completar su solicitud.
+**En este artículo**: Comprender el tipo de informes que se generan en solicitudes de derechos del sujeto. Obtenga información sobre los períodos de retención de los datos recopilados y busque instrucciones para entregar resultados al interesado y cerrar la solicitud.
+
+Después de completar la revisión de datos para una solicitud de derechos del interesado, la siguiente fase es generar los informes necesarios para satisfacer la solicitud. Priva creará informes y recopilará los archivos marcados como **Incluir** durante el proceso de revisión de datos. Los archivos seleccionados de estos paquetes de datos se pueden enviar al interesado para completar su solicitud.
 
 ## <a name="understanding-reports"></a>Descripción de los informes
 
@@ -37,7 +39,7 @@ Los informes se dividen en dos secciones:
    > Solo se generará un paquete de datos si marca los elementos como **Incluir** durante la revisión de datos.
 
    > [!IMPORTANT]
-   > Solo se generará un paquete de datos para los tipos de solicitudes **De exportación** y **Acceso** . No se generará un paquete de datos para una **lista etiquetada para la solicitud de seguimiento** . Revise los detalles sobre [los tipos de solicitud de derechos del firmante](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+   > Solo se generará un paquete de datos para los tipos de solicitudes **De exportación** y **Acceso** . No se generará un paquete de datos para una **lista etiquetada para la solicitud de seguimiento** . Revise los detalles sobre [los tipos de solicitud de derechos del firmante](subject-rights-requests-create.md#request-types).
 
 2. **Informes para uso interno**: estos informes son para los registros internos de la organización relacionados con la solicitud de derechos del sujeto. Incluyen un registro de auditoría y una lista de todos los archivos a los que aplicó etiquetas durante la revisión de datos con el fin de realizar un seguimiento o realizar más acciones.
 
@@ -102,6 +104,12 @@ El período de retención de datos se define en Priva **Configuración** y se ap
 4. Seleccione **Guardar** para guardar la configuración.
 
 Asegúrese de comprobar que los períodos de retención de datos elegidos cumplen las directivas y las obligaciones legales de su organización.
+
+## <a name="close-the-request"></a>Cerrar la solicitud
+
+Cuando haya realizado todas las acciones necesarias relacionadas con la solicitud de derechos del firmante, marque la solicitud como cerrada; para ello, seleccione **Cerrar la solicitud** en la esquina superior derecha de la página de detalles de la solicitud. Una solicitud cerrada significa que ya no está activa e indica que no se necesita ningún trabajo adicional para satisfacer la solicitud original del interesado a su organización.
+
+Las solicitudes cerradas no se pueden volver a abrir, pero puede volver a la solicitud para ver los detalles y las notas de la solicitud. Los informes de la solicitud se conservan según el período de [retención](#retention-periods-for-reports-and-data) establecido.
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La solución Solicitudes de derechos del interesado en Microsoft Priva le ayuda a encontrar datos personales y a colaborar en la revisión del contenido y la creación de informes.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851685"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046714"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Más información sobre Solicitudes de los interesados Priva
 
@@ -53,9 +53,9 @@ Una vez que haya terminado de revisar los datos y decidir qué incluir para la s
 
 Amplíe las funcionalidades de automatización mediante una de las plantillas de Power Automate integradas para configurar flujos para tareas comunes, como la configuración de recordatorios de calendario o la creación de registros de las solicitudes en ServiceNow. También puede usar la API Microsoft 365 Subject Rights Request para introducir la automatización de la estrategia de derechos del sujeto existente.
 
-## <a name="getting-started"></a>Introducción
+## <a name="next-steps"></a>Pasos siguientes
 
-Visite [Create a subject rights request (Crear una solicitud de derechos de sujeto](subject-rights-requests-create.md) ) para obtener información sobre cómo se indica con su primera solicitud.
+Visite [la página Descripción del flujo de trabajo y los detalles](subject-rights-requests-workflow.md) de la solicitud para obtener información sobre los pasos de progreso en la creación y el trabajo a través de una solicitud de derechos de sujeto. Para empezar a trabajar con la primera solicitud, consulte [Creación de una solicitud de derechos de sujeto](subject-rights-requests-create.md).
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 

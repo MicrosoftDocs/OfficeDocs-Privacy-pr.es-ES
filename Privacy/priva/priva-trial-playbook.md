@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la Microsoft Priva prueba, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a la documentación importante.
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851695"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046594"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -69,7 +69,7 @@ Si está listo para empezar a usar Microsoft Priva, siga estos pasos para config
 
 Priva ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
 
-Para empezar, vaya a la sección Priva de la [portal de cumplimiento Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
+Para empezar, vaya a la sección Priva del portal de cumplimiento de [Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
 
 1. [Información general](priva-data-profile.md#explore-the-overview-page): proporciona una vista agregada de la posición de privacidad, incluido el volumen, la categoría, la ubicación y el movimiento de datos personales en el entorno de Microsoft 365. Además, obtendrá visibilidad sobre el estado actual y las tendencias de los riesgos de privacidad asociados derivados de que los datos personales se compartan, transfieran o no se usen en exceso.
 1. [Perfil de datos](priva-data-profile.md#explore-the-data-profile-page): proporciona una instantánea de los datos personales que la organización almacena en Microsoft 365, incluidos el volumen, el tipo y la ubicación (almacenamiento y geografía).
@@ -138,9 +138,9 @@ De acuerdo con ciertas regulaciones de privacidad en todo el mundo, las personas
 
 Los administradores de administración de derechos del sujeto pueden abrir nuevas solicitudes de derechos de sujeto a través de la página principal solicitudes de derechos del sujeto. Un asistente le guiará a través del proceso de búsqueda de datos personales sobre un interesado e iniciar el proceso de satisfacer su solicitud.
 
-1. [Uso del Asistente para solicitudes de derechos del firmante](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) : creación de una solicitud
-1. [Definición de la configuración de búsqueda](subject-rights-requests-create.md#define-search-settings)
-1. [Refinar la configuración de búsqueda](subject-rights-requests-create.md#refine-your-search)
+1. [Uso del Asistente para solicitudes de derechos del firmante](subject-rights-requests-create.md#create-a-request) : creación de una solicitud
+1. [Definición de la configuración de búsqueda](subject-rights-requests-create.md#defining-search-settings)
+1. [Refinar la configuración de búsqueda](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Administración de la coincidencia de datos para solicitudes de derechos del interesado
 
@@ -154,10 +154,10 @@ Con la coincidencia de datos, las organizaciones pueden habilitar Priva para ide
 
 Después de crear una solicitud de derechos de sujeto, Priva usará sus entradas sobre el sujeto para buscar coincidencias en el entorno de Microsoft 365 de la organización. Una vez compilados estos datos, puede revisar los resultados, tomar decisiones sobre qué incluir y redactar la información según sea necesario.
 
-1. [Revisar los detalles de la solicitud y supervisar el progreso](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [Visualización y edición de consultas de búsqueda](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (opcional)
-1. [Revisar datos](subject-rights-requests-data-review.md#step-3-review-data)
-1. [Cerrar la solicitud](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [Revisar los detalles de la solicitud y supervisar el progreso](subject-rights-requests-workflow.md)
+1. [Visualización y edición de consultas de búsqueda](subject-rights-requests-create.md#defining-search-settings)  (opcional)
+1. [Revisar datos](subject-rights-requests-data-review.md)
+1. [Cerrar la solicitud](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>Administrar informes de solicitudes de derechos del interesado y completar solicitudes
 
