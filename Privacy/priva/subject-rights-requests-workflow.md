@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Comprenda los pasos del flujo de trabajo y la página de detalles de la solicitud en Solicitudes de datos personales Microsoft Priva.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046759"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060104"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>Descripción de las páginas de detalles del flujo de trabajo y la solicitud
 
@@ -45,9 +45,15 @@ Cada solicitud pasa por varias fases. Algunas fases progresan automáticamente y
 
 ## <a name="understanding-the-request-details-page"></a>Descripción de la página de detalles de la solicitud
 
-Seleccione **Solicitudes de los interesados Priva** en el panel de navegación izquierdo del portal de cumplimiento de Microsoft Purview para acceder a las solicitudes creadas por su organización y ver su estado. Las tarjetas de estado de la página principal solicitudes de derechos de sujeto muestran el número de solicitudes activas, cerradas y vencidas, y los tipos de solicitud principales. En la tabla debajo de las tarjetas de estado se enumeran todas las solicitudes creadas por su organización, con la solicitud creada más recientemente en la parte superior.
+Seleccione **Solicitudes de los interesados Priva** en el panel de navegación izquierdo del portal de cumplimiento de Microsoft Purview para acceder a las solicitudes creadas por su organización y ver su estado. Las tarjetas de estado de la página principal solicitudes de derechos del sujeto, que se muestran a continuación, muestran el número de solicitudes activas, cerradas y vencidas, y los tipos de solicitud principales. En la tabla debajo de las tarjetas de estado se enumeran todas las solicitudes creadas por su organización, con la solicitud creada más recientemente en la parte superior.
 
-Para abrir la página de detalles de una solicitud, seleccione el nombre de la solicitud de la tabla. Aquí puede obtener más información sobre las propiedades de la solicitud, los resultados de la búsqueda y el estado de la solicitud. Esta página se convertirá en el centro para trabajar y colaborar en la administración de los archivos encontrados, la creación de informes y exportaciones y la finalización de la solicitud.
+**Página principal solicitudes de derechos del sujeto:** 
+![ Página principal solicitudes de derechos del sujeto.](../media/priva-srr-overview.png)
+
+Para abrir la página de detalles de una solicitud, seleccione el nombre de la solicitud de la tabla. Aquí puede obtener más información sobre las propiedades de la solicitud, los resultados de la búsqueda y el estado de la solicitud. La página de detalles, que se muestra a continuación, se convertirá en el centro para trabajar y colaborar en la administración de los archivos encontrados, la creación de informes y exportaciones y la finalización de la solicitud.
+
+**Página de detalles de una solicitud:**
+![ Página de detalles de la solicitud de derechos del firmante.](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>Pestaña Información general
 
@@ -105,7 +111,7 @@ La pestaña **Informes** muestra todos los informes que se generan automáticame
 
 La pestaña **Historial** resume los eventos de nivel superior de la solicitud, incluidos los cambios en la fase de progreso y los agregados para el número de elementos incluidos, excluidos y redactados.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Visite [Create a subject rights request (Crear una solicitud de derechos de sujeto](subject-rights-requests-create.md) ) para obtener información sobre cómo se indica con su primera solicitud.
 

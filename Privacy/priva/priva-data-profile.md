@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la información general y el perfil de datos en Priva y cómo obtener información sobre los datos personales en el entorno de Microsoft 365 de su organización.
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059754"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060107"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Búsqueda y visualización de datos personales en Microsoft Priva
 
-Microsoft Priva le ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial. Estas visualizaciones se pueden encontrar en las páginas **de información general** y **perfil de datos** . Puede actuar sobre la información aquí para reforzar la posición de privacidad de su organización y reducir el riesgo.
+Microsoft Priva ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial. Estas visualizaciones se pueden encontrar en las páginas **de información general** y **perfil de datos** . Puede actuar sobre la información aquí para reforzar la posición de privacidad de su organización y reducir el riesgo.
 
-Para empezar, vaya a la sección Priva del [portal de cumplimiento de Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
+Para empezar, vaya a la sección Priva del portal de cumplimiento de [Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
 
 - **Información general**: proporciona una vista general de los datos de la organización en Microsoft 365. Los administradores de privacidad pueden supervisar tendencias y actividades, identificar e investigar posibles riesgos que implican datos personales, y participar en actividades clave, como la administración de directivas o las acciones de solicitud de derechos de los interesados.
 - **Perfil de datos**: proporciona una instantánea de los datos personales que la organización almacena en Microsoft 365. Esta página le ayuda a visualizar dónde se encuentran los datos personales, qué tipos son los más frecuentes en su organización y cuántos tipos diferentes existen entre las ubicaciones del entorno de Microsoft 365. También puede explorar datos personales desde esta ubicación.
@@ -37,23 +37,28 @@ A medida que los datos cambian y Priva realiza nuevos hallazgos, se actualizará
 
 ## <a name="explore-the-overview-page"></a>Explorar la página de información general
 
-La página de información general consta de tres secciones principales. Los iconos de la parte superior de la página proporcionan estadísticas recientes esenciales sobre los datos. La sección de conclusiones clave proporciona oportunidades de investigación sobre tendencias y áreas de interés clave. Para obtener más perspectiva sobre el entorno de datos, consulte los gráficos de líneas de tendencia. Para obtener más información sobre estas áreas, consulte las secciones siguientes.
+La página **información general de Priva** está disponible para todos los clientes Priva. La página, que se muestra a continuación, consta de tres secciones principales:
 
-![Página de información general de ejemplo.](../media/priva-overview.png)
+1. [Los iconos](#top-tiles) de la parte superior de la página proporcionan estadísticas recientes esenciales sobre los datos. 
+2. La sección [Conclusiones clave](#key-insights) proporciona oportunidades de investigación sobre tendencias y áreas de interés clave.
+3. Los [gráficos de líneas de tendencia](#trendline-graphs) proporcionan perspectivas adicionales sobre el entorno de datos.
+
+**Priva página de información general:**
+![ Página de información general de ejemplo.](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>Iconos principales
 
 #### <a name="policy-matches-over-past-7-days"></a>Coincidencias de directivas en los últimos 7 días
 
-Cuando se establecen directivas en Priva Privacy Risk Management, los datos se evaluarán en función de las directivas para determinadas condiciones que podrían presentar riesgos de privacidad. Las coincidencias de directivas indican detecciones de datos que pueden necesitar revisión o corrección adicionales. En este icono se muestra cuántas coincidencias de directivas se han producido en los últimos siete días. Las coincidencias se mostrarán aquí si las directivas están activadas o en ejecución en modo de prueba, por lo que puede ver los resultados de todas las directivas activas. La selección de este icono le llevará a una vista filtrada de la página **Directivas** de Administración de riesgos de privacidad, en la que se muestran las directivas que han tenido una coincidencia en los últimos siete días.
+Cuando se establecen directivas dentro de Administración de riesgo de privacidad Priva, los datos se evaluarán en función de las directivas para determinadas condiciones que podrían presentar riesgos de privacidad. Las coincidencias de directivas indican detecciones de datos que pueden necesitar revisión o corrección adicionales. En este icono se muestra cuántas coincidencias de directivas se han producido en los últimos siete días. Las coincidencias se mostrarán aquí si las directivas están activadas o en ejecución en modo de prueba, por lo que puede ver los resultados de todas las directivas activas. La selección de este icono le llevará a una vista filtrada de la página **Directivas** de Administración de riesgos de privacidad, en la que se muestran las directivas que han tenido una coincidencia en los últimos siete días.
 
 #### <a name="items-with-personal-data"></a>Elementos con datos personales
 
-Para ver las funcionalidades de detección automatizada de Priva en el trabajo, revise el icono **Elementos con datos personales** . Este icono muestra cuántos elementos nuevos que contienen datos personales basados en la configuración se han detectado en el entorno de Microsoft 365 de la organización en los últimos siete días. Al seleccionar este icono, se cargará una vista de los 100 elementos más recientes detectados.
+Para ver las funcionalidades de detección automatizada de Priva en el trabajo, revise el icono **Elementos con datos personales**. Este icono muestra cuántos elementos nuevos que contienen datos personales basados en la configuración se han detectado en el entorno de Microsoft 365 de la organización en los últimos siete días. Al seleccionar este icono, se cargará una vista de los 100 elementos más recientes detectados.
 
 #### <a name="subject-rights-requests"></a>Solicitudes de derechos de sujeto
 
-La página de información general incluye un icono que muestra cuántas solicitudes de derechos de asunto se han creado en los últimos siete días. Un segundo icono, si procede, muestra cuántas solicitudes han vencido en función de las fechas límite designadas y puede que necesite atención inmediata. La selección de estos iconos llevará a los usuarios con los permisos adecuados a la página de solicitud de derechos del firmante de Priva.
+La página de información general incluye un icono que muestra cuántas solicitudes de derechos de asunto se han creado en los últimos siete días. Un segundo icono, si procede, muestra cuántas solicitudes han vencido en función de las fechas límite designadas y puede que necesite atención inmediata. La selección de estos iconos llevará a los usuarios con los permisos adecuados a la página principal derechos del sujeto.
 
 ### <a name="key-insights"></a>Información clave
 
@@ -65,7 +70,7 @@ Seleccione **Ver resumen** para obtener una vista de resumen de los elementos en
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>Directivas con más coincidencias en la última semana
 
-Esta información muestra qué directivas han coincidido con más frecuencia en los últimos siete días, ya sea en modo "Activado" o "Pruebas". Ayuda a ilustrar el rendimiento de las directivas y los efectos del trabajo en curso a medida que los usuarios priva refinan sus comportamientos de privacidad.
+Esta información muestra qué directivas han coincidido con más frecuencia en los últimos siete días, ya sea en modo "Activado" o "Pruebas". Ayuda a ilustrar el rendimiento de las directivas y los efectos del trabajo en curso a medida que los usuarios Priva refinan sus comportamientos de privacidad.
 
 Seleccione **Ver resumen** para ver un resumen de las 10 directivas principales coincidentes y los propietarios de contenido del contenido asociado. También verá cuántas notificaciones de usuario se enviaron debido a estas coincidencias de directiva y al número de acciones de usuario realizadas. Seleccione **Investigar** para ver la página Directivas en Administración de riesgos de privacidad, filtrada para mostrar las directivas desde la vista de resumen. Esta vista de investigación mostrará estadísticas para toda la duración de la directiva. Selecciónelo para ver detalles como cuándo se detectaron inicialmente elementos coincidentes.
 
@@ -91,7 +96,7 @@ En esta área se muestra una instantánea de alertas activas desencadenadas por 
 
 #### <a name="personal-data-found-in-organization"></a>Datos personales encontrados en la organización
 
-Este gráfico muestra las tendencias en cuanto a la cantidad de datos personales que coinciden con la configuración que se han detectado a lo largo del tiempo en el entorno de Microsoft 365 y dónde se encuentran. Empezará a rellenarse después de que Priva haya estado ejecutándose durante suficiente tiempo y después de que se haya encontrado contenido con datos personales en SharePoint, OneDrive, Teams o Exchange.
+Este gráfico muestra las tendencias en cuanto a la cantidad de datos personales que coinciden con la configuración que se han detectado a lo largo del tiempo en el entorno de Microsoft 365 y dónde se encuentran. Empezará a rellenarse después de que Priva se haya estado ejecutando durante suficiente tiempo y después de que se haya encontrado contenido con datos personales en SharePoint, OneDrive, Teams o Exchange.
 
 #### <a name="data-transfers-detected-in-organization"></a>Transferencias de datos detectadas en la organización
 
@@ -125,9 +130,10 @@ Esta vista de mapa le ayuda a visualizar el volumen de solicitudes de derechos d
 
 ## <a name="explore-the-data-profile-page"></a>Explorar la página del perfil de datos
 
-La página de perfil de datos de Priva proporciona una vista de instantánea de los datos personales que su organización almacena en Microsoft 365 y dónde residen. También proporciona información sobre los tipos de datos que se almacenan. Los iconos principales incluyen lo siguiente.
+La página **Perfil de datos**, que se muestra a continuación, proporciona una vista de instantánea de los datos personales que su organización almacena en Microsoft 365 y dónde residen. También proporciona información sobre los tipos de datos que se almacenan. Los gráficos de la página se describen a continuación.
 
-![Página de perfil de datos de ejemplo.](../media/priva-dataprofile.png)
+**Priva página Perfil de datos:**
+![ Página de perfil de datos de ejemplo.](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>Instancias de tipo de datos personales detectadas en Microsoft 365
 
@@ -149,4 +155,4 @@ Al seleccionar **Explorar** en cualquier icono de perfil de datos, se abrirá el
 
 ## <a name="legal-disclaimer"></a>Declinación de responsabilidades legal
 
-[Declinación de responsabilidades legal de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva declinación de responsabilidades legal](priva-disclaimer.md)
