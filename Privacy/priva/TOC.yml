@@ -30,11 +30,15 @@
   items:
     - name: Información acerca de las solicitudes de derechos del interesado
       href: subject-rights-requests.md
-    - name: Crear solicitudes
+    - name: Descripción de páginas de detalles de flujo de trabajo y solicitudes
+      href: subject-rights-requests-workflow.md
+    - name: Crear solicitudes y definir la búsqueda
       href: subject-rights-requests-create.md
+    - name: Estimación y recuperación de datos
+      href: subject-rights-requests-data-retrieval.md
     - name: Revisar datos y colaborar
       href: subject-rights-requests-data-review.md
-    - name: Generación de informes para satisfacer las solicitudes
+    - name: Obtener informes y cerrar solicitudes
       href: subject-rights-requests-reports.md
     - name: "Integración con la API de Microsoft\_Graph y Power\_Automate"
       href: subject-rights-requests-automate.md
