@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre cómo revisar los datos de solicitudes de derechos del interesado recopilados por Microsoft Priva y colaborar en la finalización de la solicitud.
-ms.openlocfilehash: 0182be22efe224481625c121dc98ebe1d96a06ec
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 6120fdaa97cf79ac122f6992f9ce476fdc4c5da3
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046634"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166649"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Revisión de los datos de una solicitud de derechos del interesado
 
@@ -31,18 +31,46 @@ Una vez recopilados los datos de una solicitud de derechos del interesado, la si
 
 ## <a name="tasks-for-completing-the-data-review"></a>Tareas para completar la revisión de datos
 
-En esta fase, los colaboradores deben revisar los resultados en la pestaña **Datos recopilados**. Se configurará automáticamente un canal Teams para facilitar la revisión de contenido por parte de todas las partes interesadas. Consulte [Colaboración para la revisión de datos](#collaboration-for-data-review) a continuación para obtener más detalles. A continuación se describen las tareas esenciales para el paso de revisión de datos.
+La fase **Revisar datos** es cuando los colaboradores examinan los elementos de contenido en la pestaña **Datos recopilados**. Se configurará automáticamente un canal Teams para facilitar la revisión de contenido por parte de todas las partes interesadas. Consulte [Colaboración para la revisión de datos](#collaboration-for-data-review) a continuación para obtener más detalles. A continuación se describen las tareas esenciales para el paso de revisión de datos.
+
+#### <a name="import-additional-files"></a>Importación de archivos adicionales
+
+Es posible que desee incluir elementos de contenido adicionales en la solicitud de revisión de datos. Por ejemplo, los archivos almacenados fuera del entorno de Microsoft 365 de la organización u otros elementos que considere pertinentes pero que no se han limitado en la búsqueda. Puede importar archivos en la pestaña **Datos recopilados** de una solicitud individual en la que se va a revisar y trabajar, junto con los demás elementos. Los archivos importados se agregan al mismo contenedor Azure Blob Storage con los demás elementos de contenido recuperados de la búsqueda.
+
+Siga los pasos siguientes para importar archivos:
+
+1. En la página de detalles de la solicitud, seleccione **Importar archivos** en la barra de comandos de la parte superior de la página.
+
+2.  Aparecerá un cuadro **Importar archivos** en la pantalla. Seleccione **Elegir archivos** y, en la vista del explorador de archivos, elija uno o varios archivos para importar.
+
+3. Volverá al cuadro **Importar archivos** , que enumera los archivos que eligió. Puede seleccionar **Elegir archivos** de nuevo para agregar más elementos a la lista. Para quitar cualquiera de los archivos, seleccione **Borrar**, que quita todos los archivos y elija archivos de nuevo.
+
+4. Cuando todos los archivos deseados aparezcan en el cuadro **Importar archivos** , seleccione **Importar**. Para salir sin cargar, seleccione **Cancelar importación**.
+
+Cuando comience la importación, volverá a la pestaña **Datos recopilados** de la solicitud. Un mensaje situado encima de la pestaña indica que la carga está en curso. Si hay un problema con la carga, el mensaje le indicará y proporcionará una opción para volver a intentarlo.
+
+Verá un mensaje de confirmación encima de la pestaña **Datos recopilados** cuando se complete la importación.
+
+**Más detalles sobre la importación de archivos:**
+
+- El tamaño de archivo individual no puede superar los 4 MB. Verá un mensaje de advertencia en el cuadro **Importar archivos** cuando un archivo sea demasiado grande para cargarlo.
+
+- Los archivos importados pueden tardar hasta 20 minutos en estar disponibles en la pestaña **Datos recopilados** .
+
+- Si ya hay una importación en curso para un usuario, el mismo usuario no podrá cargar archivos adicionales hasta que finalice el proceso de carga anterior. Varios usuarios pueden cargar archivos en la misma solicitud simultáneamente. Sin embargo, cuantos más cargas estén en curso, más tiempo tardarán en completarse. Los mensajes de estado de la solicitud informarán cuando haya finalizado una carga y los archivos estén listos para revisarse.
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marcar elementos como Incluir o Excluir y agregar notas
 
-Revise la lista de elementos identificados devueltos por la búsqueda. Si decide que el elemento debe incluirse como parte del informe final al interesado, seleccione **Incluir** en la barra de comandos de la parte superior de la lista de elementos. También puede seleccionar el botón **azul Incluir** en el área de revisión de contenido situada a la derecha de la lista de elementos. Al seleccionar **Incluir**, aparece un panel flotante con una opción para agregar notas. Cuando haya terminado, seleccione **Enviar** para guardar el estado de revisión del elemento como **Incluir**.
+Revise los elementos enumerados en la pestaña **Datos recopilados** de la solicitud.  Si decide que el elemento debe incluirse como parte del informe final al interesado, seleccione **Incluir** en la barra de comandos de la parte superior de la lista de elementos. También puede seleccionar el botón **azul Incluir** en el área de revisión de contenido situada a la derecha de la lista de elementos. Al seleccionar **Incluir**, aparece un panel flotante con una opción para agregar notas. Cuando haya terminado, seleccione **Enviar** para guardar el estado de revisión del elemento como **Incluir**.
 
-Si el elemento no pertenece como parte de la solicitud, seleccione **Excluir** en la barra de comandos o el botón **Excluir** del área de revisión de contenido. Excluir un elemento significa que no se incluirá en los [informes finales que se generan para el interesado](subject-rights-requests-reports.md).
+Si el elemento no pertenece como parte de la solicitud, puede seleccionar **Excluir** en la barra de comandos o el botón **Excluir** del área de revisión de contenido. Marcar un elemento explícitamente como **Excluir** suele ser necesario para los registros internos.
+
+De forma predeterminada, solo los elementos que marque como **Incluir** se incluirán en los [informes finales que se generan para el interesado](subject-rights-requests-reports.md).
 
 > [!NOTE]
 > Si marca un elemento como **Excluir**, debe agregar una nota como justificación para por qué no pertenece a la solicitud de derechos del sujeto. Las notas son para fines internos y no se incluyen en los informes finales.
 
-Si el contenido parece ser un falso positivo, seleccione **No una coincidencia** y, en el panel flotante, seleccione **Confirmar**. Esta acción excluirá el archivo de los informes finales y marcará el elemento como algo que no debería haberse detectado en la búsqueda.
+Si el contenido parece ser un falso positivo para la consulta de búsqueda, seleccione **No una coincidencia** y, en el panel flotante, seleccione **Confirmar**. Esta acción marcará el elemento como algo que no debería haberse detectado en la búsqueda.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -84,7 +112,7 @@ Para agregar más colaboradores, seleccione **Agregar colaborador**, empiece a e
 
 Para iniciar un chat Teams, cualquier colaborador puede seleccionar **Chatear con colaboradores** en la esquina superior derecha de la página de detalles de la solicitud. Esta acción abre Teams y le coloca en el canal **General** para el sitio de equipo de la solicitud de derechos del sujeto.
 
-Para cambiar el comportamiento predeterminado de la creación de canales de Teams para solicitudes de derechos de sujeto, vaya a Priva **Configuración** en la esquina superior derecha de Subject Rights Request. Seleccione **Teams colaboración** y, a continuación, desactive la casilla de la página para desactivar las funcionalidades de Teams para todos los derechos del sujeto.
+Para cambiar el comportamiento predeterminado de la creación de canales de Teams para solicitudes de derechos de sujeto, vaya a Priva **Configuración** en la esquina superior derecha de Subject Rights Request. Seleccione **Teams colaboración** y desactive la casilla de la página para desactivar Teams funcionalidades para todas las solicitudes de derechos del sujeto.
 
 El comando **Compartir** de la esquina superior derecha de la página de detalles de una solicitud crea un vínculo que se puede compartir que va directamente a la solicitud en Priva. Proporcione este vínculo a los colaboradores para que puedan acceder a la solicitud a la que los ha agregado.
 

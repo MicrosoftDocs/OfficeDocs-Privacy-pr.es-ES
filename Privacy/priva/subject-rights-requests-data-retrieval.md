@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Comprenda cómo se recuperan los datos y cómo modificar la configuración de búsqueda en Solicitudes de datos personales Microsoft Priva.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046750"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166669"
 ---
 # <a name="data-estimate-and-retrieval"></a>Estimación y recuperación de datos
 
@@ -36,7 +36,7 @@ La solicitud pasará automáticamente a la siguiente fase de **recuperación de 
 
 Hay dos motivos por los que una solicitud se pausará en la fase **De estimación de datos** :
 
-1. Cuando cree una solicitud por primera vez, puede elegir obtener primero una estimación. Consulte el paso 5 en [Creación de una solicitud](subject-rights-requests-create.md#create-a-request) para obtener más información.
+1. Al crear una solicitud, puede elegir obtener primero una estimación. Consulte el paso 6 de [creación de una solicitud personalizada](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) para obtener más información.
 
 2. Si se proyecta que la estimación devuelve un gran número de elementos que se van a revisar (más de 10 000 elementos), el flujo de trabajo se pausa. En este punto, puede obtener una vista previa de los resultados y decidir si [desea editar la consulta de búsqueda](subject-rights-requests-create.md#refining-your-search) o continuar recuperando los elementos identificados.
 

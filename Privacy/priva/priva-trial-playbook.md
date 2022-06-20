@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la Microsoft Priva prueba, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a la documentación importante.
-ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046594"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166639"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -69,7 +69,7 @@ Si está listo para empezar a usar Microsoft Priva, siga estos pasos para config
 
 Priva ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
 
-Para empezar, vaya a la sección Priva del portal de cumplimiento de [Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
+Para empezar, vaya a la sección Priva de la [portal de cumplimiento Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
 
 1. [Información general](priva-data-profile.md#explore-the-overview-page): proporciona una vista agregada de la posición de privacidad, incluido el volumen, la categoría, la ubicación y el movimiento de datos personales en el entorno de Microsoft 365. Además, obtendrá visibilidad sobre el estado actual y las tendencias de los riesgos de privacidad asociados derivados de que los datos personales se compartan, transfieran o no se usen en exceso.
 1. [Perfil de datos](priva-data-profile.md#explore-the-data-profile-page): proporciona una instantánea de los datos personales que la organización almacena en Microsoft 365, incluidos el volumen, el tipo y la ubicación (almacenamiento y geografía).
@@ -138,7 +138,7 @@ De acuerdo con ciertas regulaciones de privacidad en todo el mundo, las personas
 
 Los administradores de administración de derechos del sujeto pueden abrir nuevas solicitudes de derechos de sujeto a través de la página principal solicitudes de derechos del sujeto. Un asistente le guiará a través del proceso de búsqueda de datos personales sobre un interesado e iniciar el proceso de satisfacer su solicitud.
 
-1. [Uso del Asistente para solicitudes de derechos del firmante](subject-rights-requests-create.md#create-a-request) : creación de una solicitud
+1. [Uso del Asistente para solicitudes de derechos del firmante](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) : creación de una solicitud
 1. [Definición de la configuración de búsqueda](subject-rights-requests-create.md#defining-search-settings)
 1. [Refinar la configuración de búsqueda](subject-rights-requests-create.md#refining-your-search)
 
