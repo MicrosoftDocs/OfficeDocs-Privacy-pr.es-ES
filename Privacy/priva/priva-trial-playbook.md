@@ -17,12 +17,13 @@ search.appverid:
 - MOE150
 - MET150
 description: Obtenga información sobre la Microsoft Priva prueba, consulte las acciones recomendadas que debe realizar durante el período de prueba y revise los vínculos a la documentación importante.
-ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
-ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
+ms.custom: trial-playbook
+ms.openlocfilehash: 87ffb0f5d8d751d9039c6e46cef2e9a94c177057
+ms.sourcegitcommit: 24bb4f96bcc8664460faa8b2c3b934a36e416240
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66166639"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66549259"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Cuaderno de estrategias de prueba: Microsoft Priva
 
@@ -60,23 +61,23 @@ Si está listo para empezar a usar Microsoft Priva, siga estos pasos para config
 1. [Confirmación de suscripciones y licencias](priva-setup.md#confirm-subscriptions-and-licensing)
 1. [Establecimiento de permisos de usuario y asignación de roles](priva-setup.md#set-user-permissions-and-assign-roles)
 1. Seleccione "Iniciar prueba" y lo siguiente se realizará automáticamente:
-    - Priva licencias de prueba están habilitadas (esto sucede en tiempo real)
+    - Las licencias de prueba priva están habilitadas (esto sucede en tiempo real)
     - Se generan conclusiones de privacidad (esto tarda 24 horas)
 
 ![Captura de pantalla de la pantalla de bienvenida.](../media/priva-insights.png)
 
 ## <a name="start-finding-and-visualizing-privacy-risks"></a>Empezar a buscar y visualizar riesgos de privacidad
 
-Priva ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
+Priva le ayuda a comprender los datos que almacena su organización mediante la automatización de la detección de recursos de datos personales y la visualización de información esencial.
 
-Para empezar, vaya a la sección Priva de la [portal de cumplimiento Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
+Para empezar, vaya a la sección Priva del [portal de cumplimiento Microsoft Purview](https://compliance.microsoft.com/) y vea estas páginas:
 
-1. [Información general](priva-data-profile.md#explore-the-overview-page): proporciona una vista agregada de la posición de privacidad, incluido el volumen, la categoría, la ubicación y el movimiento de datos personales en el entorno de Microsoft 365. Además, obtendrá visibilidad sobre el estado actual y las tendencias de los riesgos de privacidad asociados derivados de que los datos personales se compartan, transfieran o no se usen en exceso.
-1. [Perfil de datos](priva-data-profile.md#explore-the-data-profile-page): proporciona una instantánea de los datos personales que la organización almacena en Microsoft 365, incluidos el volumen, el tipo y la ubicación (almacenamiento y geografía).
+1. [Información general](priva-data-profile.md#explore-the-overview-page): proporciona una vista agregada de su posición de privacidad, incluido el volumen, la categoría, la ubicación y el movimiento de los datos personales en su entorno de Microsoft 365. Además, obtendrá visibilidad sobre el estado actual y las tendencias de los riesgos de privacidad asociados derivados de que los datos personales se compartan, transfieran o no se usen en exceso.
+1. [Perfil de datos](priva-data-profile.md#explore-the-data-profile-page): proporciona una instantánea de los datos personales que su organización almacena en Microsoft 365, incluidos el volumen, el tipo y la ubicación (almacenamiento y geografía).
 
 ## <a name="learn-about-policies"></a>Más información sobre las directivas
 
-Privacy Risk Management le ofrece la capacidad de configurar directivas que identifiquen los riesgos de privacidad en su entorno de Microsoft 365 y permitan una fácil corrección.
+Privacy Risk Management le ofrece la capacidad de configurar directivas que identifiquen los riesgos de privacidad en el entorno de Microsoft 365 y habiliten una corrección sencilla.
 
 1. [Más información sobre los escenarios de riesgo clave](risk-management.md#learn-about-key-risk-scenarios)
 1. [Limitación de la sobreexposición de datos](risk-management.md#limit-data-overexposure)
@@ -144,15 +145,15 @@ Los administradores de administración de derechos del sujeto pueden abrir nueva
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Administración de la coincidencia de datos para solicitudes de derechos del interesado
 
-Con la coincidencia de datos, las organizaciones pueden habilitar Priva para identificar a los interesados en función de los valores de datos proporcionados exactamente.
+Con la coincidencia de datos, las organizaciones pueden permitir que Priva identifique a los interesados en función de los valores de datos proporcionados exactamente.
 
 1. [Preparación para la importación de datos](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [Definición del esquema de datos personales](subject-rights-requests-data-match.md#define-the-personal-data-schema)
-1. [Upload datos personales](subject-rights-requests-data-match.md#upload-personal-data)
+1. [Carga de datos personales](subject-rights-requests-data-match.md#upload-personal-data)
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>Revisar datos y colaborar en solicitudes de derechos del interesado
 
-Después de crear una solicitud de derechos de sujeto, Priva usará sus entradas sobre el sujeto para buscar coincidencias en el entorno de Microsoft 365 de la organización. Una vez compilados estos datos, puede revisar los resultados, tomar decisiones sobre qué incluir y redactar la información según sea necesario.
+Después de crear una solicitud de derechos de sujeto, Priva usará sus entradas sobre el sujeto para buscar coincidencias en el entorno de Microsoft 365 de su organización. Una vez compilados estos datos, puede revisar los resultados, tomar decisiones sobre qué incluir y redactar la información según sea necesario.
 
 1. [Revisar los detalles de la solicitud y supervisar el progreso](subject-rights-requests-workflow.md)
 1. [Visualización y edición de consultas de búsqueda](subject-rights-requests-create.md#defining-search-settings)  (opcional)
@@ -172,8 +173,8 @@ Después de completar la revisión de datos para una solicitud de derechos del i
 Habilite flujos de Power Automate para Priva para automatizar tareas importantes para casos y usuarios, como la creación de vales en ServiceNow o la adición de recordatorios de calendario sobre fechas de vencimiento.
 
 1. [Creación de un nuevo flujo de Power Automate a partir de una plantilla](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
-1. [Compartir un flujo de Power Automate](subject-rights-requests-automate.md#share-a-power-automate-flow)
-1. [Editar o eliminar Power Automate flujo](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
+1. [Uso compartido de un flujo de Power Automate](subject-rights-requests-automate.md#share-a-power-automate-flow)
+1. [Edición o eliminación del flujo de Power Automate](subject-rights-requests-automate.md#edit-or-delete-power-automate-flow)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
